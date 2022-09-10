@@ -1,3 +1,3 @@
 # zanabre.github.io
 
-the beginning of my portfolio.
+the beginning of my portfolio!
