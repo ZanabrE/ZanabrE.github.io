@@ -1,3 +1,445 @@
 #portfolio * {
 	box-sizing: border-box;
 }/*End of asterisk element.*/
+
+#portfolio {
+	background-color: rgb(38, 74, 119);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Roboto Mono", sans-serif;
+	height: 100%;
+}/*End of portfolio body.*/
+/*-----------------------------------------------------*/
+
+#portfolio #header{
+	background-color: rgba(121, 117, 114, 0.1);
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	padding: 15px;
+}/*End of header.*/
+/*-----------------------------------------------------*/
+
+#portfolio .logo{
+	border-radius: 20px 10px;
+	border: 2px solid rgb(148, 162, 97);
+	font-size: 24pt;
+	padding: 4px 8px;/*this line of code will extend the border.*/
+	margin-left: 20px;
+	float: left;	
+}/*End of logo desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .logo:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
+	background-color: rgba(121, 117, 114, 0.5);
+	cursor: pointer;
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .letter{
+	text-decoration: none;
+	padding: 10px;
+	color: rgb(148, 162, 97);
+}/*End of letter design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .nav{
+	margin-right: 20px;
+	float: right;
+}/*End of nav design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .nav_numbers{
+	color: rgb(148, 162, 97);
+}/*End of nav numbers design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .nav_numbers li{
+	font-size: 14pt;
+	padding: 10px;
+	display: inline;
+}/**End of nav numbers li design./
+/*-----------------------------------------------------*/
+
+#portfolio .description{
+	color: rgb(121, 117, 114);
+	text-decoration: none;
+	font-size: 14pt;
+	padding: 5px;
+}/*End of description design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .description:hover{
+	color: rgb(148, 162, 97);
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .res{
+	border-radius: 5px;
+	border: 2px solid rgb(148, 162, 97);
+	text-decoration: none;
+	color: rgb(148, 162, 97);
+	text-align: center;
+	font-size: 14pt;
+	padding: 5px 20px;/*this line of code will extend the border.*/
+}/*End of res design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .res:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
+	background-color: rgba(121, 117, 114, 0.5);
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}/*End of clear fix.*/
+/*-----------------------------------------------------*/
+
+#portfolio #intro{
+	margin-left: 220px;
+	padding-top: 180px;
+}/*End of intro block design.*/
+/*-----------------------------------------------------*/
+
+#portfolio h1{
+	color: rgb(148, 162, 97);
+	font-weight: normal;
+	font-size: 14pt;
+}/*End of h1 element design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .name{
+	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
+	font-weight: bold;
+	font-size: 44pt;
+	margin: 10px;
+	margin-left: -4px;
+	white-space: nowrap;
+	overflow: hidden;
+}/*End of name design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .meaning{
+	color: rgb(121, 117, 114);
+	font-weight: bold;
+	font-size: 38pt;
+	margin: 10px;
+	margin-left: -4px;
+	white-space: nowrap;
+	overflow: hidden;
+}/*End of meaning design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .intro{
+	color: rgb(121, 117, 114);
+	font-size: 14pt;
+	white-space: nowrap;
+	overflow: hidden;
+}/*End of intro design.*/
+/*-----------------------------------------------------*/
+
+#portfolio #about{
+	margin-left: 220px;
+	margin-top: 200px;	
+}/*End of about id desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio h2{
+	color: rgb(148, 162, 97);
+}/*End of h2 element*/
+/*-----------------------------------------------------*/
+
+#portfolio .about-me{
+	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
+}/*End of about me class design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .line1{
+	border: 1px solid rgba(121, 117, 114,0.3);
+	flex-direction: row;
+	display: flex;
+	width: 46%;
+}/*End of line desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .my-self{
+	color: rgb(121, 117, 114);
+	text-align: justify;
+	white-space: nowrap;
+	overflow: hidden;
+}/*End of myself desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .mypicture{
+	border: 0px solid rgb(121, 117, 114);
+	margin-right: 320px;
+	border-radius: 5px;
+	float: right;
+}/*End of image desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .mypicture:hover{
+	-moz-box-shadow: 0 8px 6px 6px rgba(148, 162, 97, 0.2);
+	-webkit-box-shadow: 0 8px 6px 6px rgba(148, 162, 97, 0.2);
+	box-shadow: 0px 8px 6px 6px rgba(148, 162, 97, 0.5);
+	background-color: rgba(121, 117, 114, 0.2);
+}/*End of my picture hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .arrow1{
+	color: rgb(148, 162, 97);
+}/*End of arrow 1 design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .framework1{
+	color: rgb(121, 117, 114);
+	margin: 10px;
+}/*End of framework 1 design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .arrow2{
+	color: rgb(148, 162, 97);
+	padding-left: 80px;
+}/*End of arrow 2 design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .framework2{
+	color: rgb(121, 117, 114);
+	margin: 10px;
+	
+}/*End of framework 2 design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .arrow3{
+	color: rgb(148, 162, 97);
+	padding-left: 100px;
+}/*End of arrow 3 design.*/
+/*-----------------------------------------------------*/
+
+#portfolio #skills{
+	margin-left: 500px;
+	margin-top: 200px;	
+}/*End of skills design.*/
+/*-----------------------------------------------------*/
+
+#portfolio h3{
+	color: rgb(148, 162, 97);
+	font-size: 18pt;
+}/*End of h3 element design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .my-skills{
+	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
+}/*End of my skills desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .line2{
+	border: 1px solid rgba(121, 117, 114,0.3);
+	flex-direction: row;
+	display: flex;
+	width: 40%;
+}/*End of line desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .align{
+	position: center;
+	margin-left: 22px;
+}/*End of align desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .icons-1{
+	border: 0px solid rgba(148, 162, 97, 0.1);
+	padding: 5px 10px;
+	border-radius: 5px;
+	padding-top: 20px;
+	text-align: center;
+	position: center;
+	float: left;
+	margin: 34px;
+}/*End of icons 1 design*/
+/*-----------------------------------------------------*/
+
+#portfolio .icons-1:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
+	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
+	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
+	background-color: rgba(121, 117, 114, 0.2);
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .icons-2{
+	border: 0px solid rgba(148, 162, 97, 0.1);
+	padding: 5px 10px;
+	border-radius: 5px;
+	padding-top: 20px;
+	text-align: center;
+	position: center;
+	float: left;
+	margin: 34px;
+}/*End of icons 2 design*/
+/*-----------------------------------------------------*/
+
+#portfolio .icons-2:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
+	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
+	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
+	background-color: rgba(121, 117, 114, 0.2);
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .desc{
+	color: rgb(121, 117, 114);
+	font-size: 14pt;
+}/*End of description desgin.*/
+/*-----------------------------------------------------*/
+
+#portfolio #work{
+	margin-left: 260px;
+	margin-top: 200px;	
+}/*End of work id desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio h4{
+	color: rgb(148, 162, 97);
+	font-size: 18pt;
+}/*End of h4 element design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .work{
+	color: rgb(239, 216, 181);/*wheat color.*/
+}/*End of work class design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .line3{
+	border: 1px solid rgba(121, 117, 114,0.3);
+	flex-direction: row;
+	display: flex;
+	width: 50%;
+}/*End of line desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .file{
+	border: 0px solid rgba(148, 162, 97, 0.1);
+	border-radius: 5px;
+	padding: 5px 10px;
+	text-align: justify;
+	margin: 20px;
+	float: left;
+}/*End of file design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .file:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
+	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
+	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
+	background-color: rgba(121, 117, 114, 0.2);
+	cursor: pointer;
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .title{
+	color: rgb(239, 216, 181);/*wheat color.*/
+	font-size: 16pt;
+}/*End of title design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .info{
+	color: rgb(121, 117, 114);
+	text-align: justify;
+	white-space: nowrap;
+	overflow: hidden;
+}/*End of info design.*/
+/*-----------------------------------------------------*/
+
+#portfolio #contact{
+	margin-top: 200px;
+}/*End of contact desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio h5{
+	color: rgb(148, 162, 97);
+	text-align: center;
+	font-size: 16pt;
+}/*End of h5 desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .contact{
+	padding: 10px;
+}/*End of contact class desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .opinion{
+	color: rgb(239, 216, 181);/*wheat color.*/
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	letter-spacing: -1px;
+}/*End of opinion design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .finale{
+	color: rgb(121, 117, 114);
+	text-align: center;
+	
+}/*End of finale design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .button{
+	text-align: center;
+	padding: 60px;
+}/*end of button desing.*/
+/*-----------------------------------------------------*/
+
+#portfolio .e-mail{
+	border-radius: 5px;
+	border: 2px solid rgb(148, 162, 97);
+	text-decoration: none;
+	color: rgb(148, 162, 97);
+	text-align: center;
+	font-size: 14pt;
+	padding: 20px 20px;/*this line of code will extend the border.*/
+}/*End of res design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .e-mail:hover{
+	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
+	background-color: rgba(121, 117, 114, 0.5);
+	cursor: pointer;
+}/*End of hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .social{
+	writing-mode: vertical-rl;
+	margin-left: 40px;
+}/*End of social media design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .social-icons{
+	text-decoration: none;
+}/*End of social icons design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .social-icons:hover{
+	color: rgb(148, 162, 97);
+	cursor: pointer;
+}/*End of social icons hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .social-icons:visit{
+	color: rgb(148, 162, 97);
+}/*End of social icons hover design.*/
+/*-----------------------------------------------------*/
+
+#portfolio .copyright{
+	color: rgb(121, 117, 114);
+	text-align: center;
+	margin-top: 100px;
+}/*End of copyright design.*/
+/*-----------------------------------------------------*/
