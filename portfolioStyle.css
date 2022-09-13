@@ -1,9 +1,11 @@
-/*@media screen and (max-width: 1080px) 
-and (min-width: 768px), (min-width: 480px){*/
-    #portfolio * {
-        box-sizing: border-box;
-    }/*End of asterisk element.*/
-/*}*/
+/*Variables*/
+:root{
+	
+}
+#portfolio * {
+	box-sizing: border-box;
+}/*End of asterisk element.*/
+
 
 #portfolio {
 	background-color: rgb(38, 74, 119);
