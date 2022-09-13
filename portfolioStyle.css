@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 /*Variables*/
 :root{
 	--font-family: "Roboto", sans-serf;
@@ -45,7 +46,7 @@ a:hover{
 body{
 	font-family: var(--font-family);
 }
-
+/*CSS reset end*/
 
 #portfolio {
 	background-color: rgb(38, 74, 119);
@@ -53,10 +54,10 @@ body{
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	font-family: "Roboto Mono", sans-serif;
+	/*font-family: "Roboto Mono", sans-serif;*/
 	height: 100%;
-}/*End of portfolio body.*/
-/*-----------------------------------------------------*/
+}
+/*portfolio id end*/
 
 #portfolio #header{
 	background-color: rgba(121, 117, 114, 0.1);
