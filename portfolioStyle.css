@@ -55,13 +55,17 @@ body{
 }
 /*CSS reset end*/
 
-#header{
-	background-color: rgba(121, 117, 114, 0.1);
+nav{
+	position: sticky;
+	/*background-color: rgba(121, 117, 114, 0.1);*/
 	top: 0;
 	left: 0;
-	width: 100%;
-	position: fixed;
-	padding: 15px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem 3.5rem;
+	background-color: var(--bg-color);
 }/*End of header.*/
 /*-----------------------------------------------------*/
 
