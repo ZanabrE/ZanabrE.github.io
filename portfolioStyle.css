@@ -73,30 +73,28 @@ nav{
 	border-radius: 20px 10px;
 	border: 2px solid var(--primary-color);
 	font-size: 24pt;
-	padding: 4px 8px;/*this line of code will extend the border.*/
-	margin-left: 20px;
-	float: left;	
-}/*End of logo desing.*/
-/*-----------------------------------------------------*/
+	padding: 4px 8px;
+	margin: 20px;
+}
+/*logo design end*/
 
 .logo:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
 	background-color: rgba(121, 117, 114, 0.5);
 	cursor: pointer;
-}/*End of hover design.*/
-/*-----------------------------------------------------*/
+}
+/*logo hover design end*/
 
 .letter{
-	text-decoration: none;
 	padding: 10px;
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 }/*End of letter design.*/
 /*-----------------------------------------------------*/
 
 .nav_numbers{
-	color: rgb(148, 162, 97);
-}/*End of nav numbers design.*/
-/*-----------------------------------------------------*/
+	color: var(--primary-color);
+}
+/*navigation number end*/
 
 .nav_numbers li{
 	font-size: 14pt;
