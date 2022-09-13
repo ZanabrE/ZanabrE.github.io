@@ -65,6 +65,7 @@ nav{
 	justify-content: space-between;
 	padding: 1.5rem 3.5rem;
 	background-color: rgba(121, 117, 114, 0.1);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 /*----*/
 
