@@ -5,8 +5,18 @@
 	--bold-font: 700;
 	--bolder-font: 900;
 	--bg-color: rgb(38, 74, 119);
-	
+	--primary-color: rgb(148, 162, 97);
+	--secondary-color: rgb(121, 117, 114);
+	--tertiary-color: rgb(239, 216, 181);
+	--primary-shadow: rgb(148, 162, 97);
+	--secondary-shadow: rgb(121, 117, 114);
+	--bottom-margin: 0.5rem;
+	--bottom-margin-2: 1rem;
+	--line-height: 1.7rem;
+	--transition: 0.3s;
 }
+/*End of my variables.*/
+
 #portfolio * {
 	box-sizing: border-box;
 }/*End of asterisk element.*/
