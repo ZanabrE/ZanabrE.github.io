@@ -88,20 +88,24 @@ nav{
 .letter{
 	padding: 10px;
 	color: var(--primary-color);
-}/*End of letter design.*/
-/*-----------------------------------------------------*/
+}
+/*letter design end*/
 
 .nav_numbers{
 	color: var(--primary-color);
 }
 /*navigation number end*/
 
-.nav_numbers li{
-	font-size: 14pt;
-	padding: 10px;
-	display: inline;
-}/**End of nav numbers li design./
-/*-----------------------------------------------------*/
+nav ul{
+	display: flex;
+	gap: 1.9rem;
+}
+/*navigation ul end*/
+
+.nav_numbers ul li{
+	font-weight: var(--bold-font);
+}
+/*navigation numbers end*/
 
 .description{
 	color: rgb(121, 117, 114);
@@ -113,6 +117,7 @@ nav{
 
 .description:hover{
 	color: rgb(148, 162, 97);
+	border-bottom: 2px solid var(--secondary-color);
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
