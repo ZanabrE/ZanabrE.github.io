@@ -46,10 +46,6 @@ a:hover{
 
 body{
 	font-family: var(--font-family);
-}
-/*CSS reset end*/
-
-#portfolio {
 	background-color: rgb(38, 74, 119);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -57,9 +53,9 @@ body{
 	background-size: cover;
 	height: 100%;
 }
-/*portfolio id end*/
+/*CSS reset end*/
 
-#portfolio #header{
+#header{
 	background-color: rgba(121, 117, 114, 0.1);
 	top: 0;
 	left: 0;
@@ -69,7 +65,7 @@ body{
 }/*End of header.*/
 /*-----------------------------------------------------*/
 
-#portfolio .logo{
+.logo{
 	border-radius: 20px 10px;
 	border: 2px solid rgb(148, 162, 97);
 	font-size: 24pt;
@@ -79,39 +75,39 @@ body{
 }/*End of logo desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .logo:hover{
+.logo:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
 	background-color: rgba(121, 117, 114, 0.5);
 	cursor: pointer;
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .letter{
+.letter{
 	text-decoration: none;
 	padding: 10px;
 	color: rgb(148, 162, 97);
 }/*End of letter design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .nav{
+.nav{
 	margin-right: 20px;
 	float: right;
 }/*End of nav design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .nav_numbers{
+.nav_numbers{
 	color: rgb(148, 162, 97);
 }/*End of nav numbers design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .nav_numbers li{
+.nav_numbers li{
 	font-size: 14pt;
 	padding: 10px;
 	display: inline;
 }/**End of nav numbers li design./
 /*-----------------------------------------------------*/
 
-#portfolio .description{
+.description{
 	color: rgb(121, 117, 114);
 	text-decoration: none;
 	font-size: 14pt;
@@ -119,12 +115,12 @@ body{
 }/*End of description design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .description:hover{
+.description:hover{
 	color: rgb(148, 162, 97);
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .res{
+.res{
 	border-radius: 5px;
 	border: 2px solid rgb(148, 162, 97);
 	text-decoration: none;
@@ -135,33 +131,33 @@ body{
 }/*End of res design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .res:hover{
+.res:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
 	background-color: rgba(121, 117, 114, 0.5);
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .clearfix::after{
+.clearfix::after{
 	content: "";
 	clear: both;
 	display: table;
 }/*End of clear fix.*/
 /*-----------------------------------------------------*/
 
-#portfolio #intro{
+#intro{
 	margin-left: 220px;
 	padding-top: 180px;
 }/*End of intro block design.*/
 /*-----------------------------------------------------*/
 
-#portfolio h1{
+h1{
 	color: rgb(148, 162, 97);
 	font-weight: normal;
 	font-size: 14pt;
 }/*End of h1 element design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .name{
+.name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
 	font-weight: bold;
 	font-size: 44pt;
@@ -172,7 +168,7 @@ body{
 }/*End of name design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .meaning{
+.meaning{
 	color: rgb(121, 117, 114);
 	font-weight: bold;
 	font-size: 38pt;
@@ -183,7 +179,7 @@ body{
 }/*End of meaning design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .intro{
+.intro{
 	color: rgb(121, 117, 114);
 	font-size: 14pt;
 	white-space: nowrap;
@@ -191,23 +187,23 @@ body{
 }/*End of intro design.*/
 /*-----------------------------------------------------*/
 
-#portfolio #about{
+#about{
 	margin-left: 220px;
 	margin-top: 200px;	
 }/*End of about id desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio h2{
+h2{
 	color: rgb(148, 162, 97);
 }/*End of h2 element*/
 /*-----------------------------------------------------*/
 
-#portfolio .about-me{
+.about-me{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
 }/*End of about me class design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .line1{
+.line1{
 	border: 1px solid rgba(121, 117, 114,0.3);
 	flex-direction: row;
 	display: flex;
@@ -215,7 +211,7 @@ body{
 }/*End of line desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .my-self{
+.my-self{
 	color: rgb(121, 117, 114);
 	text-align: justify;
 	white-space: nowrap;
@@ -223,7 +219,7 @@ body{
 }/*End of myself desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .mypicture{
+.mypicture{
 	border: 0px solid rgb(121, 117, 114);
 	margin-right: 320px;
 	border-radius: 5px;
@@ -231,7 +227,7 @@ body{
 }/*End of image desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .mypicture:hover{
+.mypicture:hover{
 	-moz-box-shadow: 0 8px 6px 6px rgba(148, 162, 97, 0.2);
 	-webkit-box-shadow: 0 8px 6px 6px rgba(148, 162, 97, 0.2);
 	box-shadow: 0px 8px 6px 6px rgba(148, 162, 97, 0.5);
@@ -239,54 +235,54 @@ body{
 }/*End of my picture hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .arrow1{
+.arrow1{
 	color: rgb(148, 162, 97);
 }/*End of arrow 1 design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .framework1{
+.framework1{
 	color: rgb(121, 117, 114);
 	margin: 10px;
 }/*End of framework 1 design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .arrow2{
+.arrow2{
 	color: rgb(148, 162, 97);
 	padding-left: 80px;
 }/*End of arrow 2 design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .framework2{
+.framework2{
 	color: rgb(121, 117, 114);
 	margin: 10px;
 	
 }/*End of framework 2 design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .arrow3{
+.arrow3{
 	color: rgb(148, 162, 97);
 	padding-left: 100px;
 }/*End of arrow 3 design.*/
 /*-----------------------------------------------------*/
 
-#portfolio #skills{
+#skills{
 	margin-left: 500px;
 	margin-top: 200px;	
 }/*End of skills design.*/
 /*-----------------------------------------------------*/
 
-#portfolio h3{
+h3{
 	color: rgb(148, 162, 97);
 	font-size: 18pt;
 }/*End of h3 element design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .my-skills{
+.my-skills{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
 }/*End of my skills desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .line2{
+.line2{
 	border: 1px solid rgba(121, 117, 114,0.3);
 	flex-direction: row;
 	display: flex;
@@ -294,13 +290,13 @@ body{
 }/*End of line desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .align{
+.align{
 	position: center;
 	margin-left: 22px;
 }/*End of align desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .icons-1{
+.icons-1{
 	border: 0px solid rgba(148, 162, 97, 0.1);
 	padding: 5px 10px;
 	border-radius: 5px;
@@ -312,7 +308,7 @@ body{
 }/*End of icons 1 design*/
 /*-----------------------------------------------------*/
 
-#portfolio .icons-1:hover{
+.icons-1:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
 	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
 	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
@@ -320,7 +316,7 @@ body{
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .icons-2{
+.icons-2{
 	border: 0px solid rgba(148, 162, 97, 0.1);
 	padding: 5px 10px;
 	border-radius: 5px;
@@ -332,7 +328,7 @@ body{
 }/*End of icons 2 design*/
 /*-----------------------------------------------------*/
 
-#portfolio .icons-2:hover{
+.icons-2:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
 	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
 	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
@@ -340,30 +336,30 @@ body{
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .desc{
+.desc{
 	color: rgb(121, 117, 114);
 	font-size: 14pt;
 }/*End of description desgin.*/
 /*-----------------------------------------------------*/
 
-#portfolio #work{
+#work{
 	margin-left: 260px;
 	margin-top: 200px;	
 }/*End of work id desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio h4{
+h4{
 	color: rgb(148, 162, 97);
 	font-size: 18pt;
 }/*End of h4 element design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .work{
+.work{
 	color: rgb(239, 216, 181);/*wheat color.*/
 }/*End of work class design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .line3{
+.line3{
 	border: 1px solid rgba(121, 117, 114,0.3);
 	flex-direction: row;
 	display: flex;
@@ -371,7 +367,7 @@ body{
 }/*End of line desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .file{
+.file{
 	border: 0px solid rgba(148, 162, 97, 0.1);
 	border-radius: 5px;
 	padding: 5px 10px;
@@ -381,7 +377,7 @@ body{
 }/*End of file design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .file:hover{
+.file:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
 	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
 	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
@@ -390,13 +386,13 @@ body{
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .title{
+.title{
 	color: rgb(239, 216, 181);/*wheat color.*/
 	font-size: 16pt;
 }/*End of title design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .info{
+.info{
 	color: rgb(121, 117, 114);
 	text-align: justify;
 	white-space: nowrap;
@@ -404,24 +400,24 @@ body{
 }/*End of info design.*/
 /*-----------------------------------------------------*/
 
-#portfolio #contact{
+#contact{
 	margin-top: 200px;
 }/*End of contact desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio h5{
+h5{
 	color: rgb(148, 162, 97);
 	text-align: center;
 	font-size: 16pt;
 }/*End of h5 desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .contact{
+.contact{
 	padding: 10px;
 }/*End of contact class desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .opinion{
+.opinion{
 	color: rgb(239, 216, 181);/*wheat color.*/
 	text-align: center;
 	font-size: 30pt;
@@ -430,20 +426,20 @@ body{
 }/*End of opinion design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .finale{
+.finale{
 	color: rgb(121, 117, 114);
 	text-align: center;
 	
 }/*End of finale design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .button{
+.button{
 	text-align: center;
 	padding: 60px;
 }/*end of button desing.*/
 /*-----------------------------------------------------*/
 
-#portfolio .e-mail{
+.e-mail{
 	border-radius: 5px;
 	border: 2px solid rgb(148, 162, 97);
 	text-decoration: none;
@@ -454,36 +450,36 @@ body{
 }/*End of res design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .e-mail:hover{
+.e-mail:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
 	background-color: rgba(121, 117, 114, 0.5);
 	cursor: pointer;
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .social{
+.social{
 	writing-mode: vertical-rl;
 	margin-left: 40px;
 }/*End of social media design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .social-icons{
+.social-icons{
 	text-decoration: none;
 }/*End of social icons design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .social-icons:hover{
+.social-icons:hover{
 	color: rgb(148, 162, 97);
 	cursor: pointer;
 }/*End of social icons hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .social-icons:visit{
+.social-icons:visit{
 	color: rgb(148, 162, 97);
 }/*End of social icons hover design.*/
 /*-----------------------------------------------------*/
 
-#portfolio .copyright{
+.copyright{
 	color: rgb(121, 117, 114);
 	text-align: center;
 	margin-top: 100px;
