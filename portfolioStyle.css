@@ -1,5 +1,10 @@
 /*Variables*/
 :root{
+	--font-family: "Roboto", sans-serf;
+	--normal-font: 440;
+	--bold-font: 700;
+	--bolder-font: 900;
+	--bg-color: rgb(38, 74, 119);
 	
 }
 #portfolio * {
@@ -8,7 +13,7 @@
 
 
 #portfolio {
-	background-color: rgb(38, 74, 119);
+	/*background-color: rgb(38, 74, 119);*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
