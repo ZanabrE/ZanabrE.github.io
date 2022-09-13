@@ -149,11 +149,10 @@ nav ul{
 /*-----------------------------------------------------*/
 
 h1{
-	color: rgb(148, 162, 97);
-	font-weight: normal;
-	font-size: 14pt;
-}/*End of h1 element design.*/
-/*-----------------------------------------------------*/
+	color: var(--primary-color);
+	font-weight: var(--normal-font);
+}
+/*h1 desgin end*/
 
 .name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
