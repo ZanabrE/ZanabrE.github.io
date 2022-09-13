@@ -71,7 +71,7 @@ nav{
 
 .logo{
 	border-radius: 20px 10px;
-	border: 2px solid rgb(148, 162, 97);
+	border: 2px solid var(--primary-color);
 	font-size: 24pt;
 	padding: 4px 8px;/*this line of code will extend the border.*/
 	margin-left: 20px;
