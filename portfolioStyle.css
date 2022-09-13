@@ -17,13 +17,38 @@
 }
 /*End of my variables.*/
 
+html{
+	scroll-behavior: smooth;
+}
+/*html end.*/
+
+/*CSS reset.*/
 #portfolio * {
 	box-sizing: border-box;
-}/*End of asterisk element.*/
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:hover{
+	color: var(--primary-color);
+}
+
+body{
+	font-family: var(--font-family);
+}
 
 
 #portfolio {
-	/*background-color: rgb(38, 74, 119);*/
+	background-color: rgb(38, 74, 119);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
