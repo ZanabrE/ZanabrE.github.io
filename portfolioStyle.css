@@ -196,10 +196,14 @@ h2{
 /*intro class desing end*/
 
 #about{
-	margin-left: 220px;
-	margin-top: 200px;	
-}/*End of about id desing.*/
-/*-----------------------------------------------------*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;	
+}
+/*about design end*/
 
 .about-me{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
