@@ -149,7 +149,7 @@ nav ul{
 /*-----------------------------------------------------*/
 
 .intro-words{
-	padding-top: 140px;
+	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -196,6 +196,7 @@ h2{
 /*intro class desing end*/
 
 #about{
+	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -232,6 +233,14 @@ h2{
 	background-color: rgba(121, 117, 114, 0.2);
 }
 /*my picture hover design end*/
+
+.bio{
+	width: 55rem;
+	padding: 00.625rem;
+	border-radius: 6px;
+	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+/*bio desing end*/
 
 .my-self{
 	color: var(--secondary-color);
