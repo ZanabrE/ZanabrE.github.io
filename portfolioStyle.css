@@ -148,7 +148,7 @@ nav ul{
 }/*End of clear fix.*/
 /*-----------------------------------------------------*/
 
-.about{
+.intro-words{
 	margin-left: 220px;
 	padding-top: 180px;
 	display: flex;
@@ -160,14 +160,14 @@ nav ul{
 }
 /*intro design end*/
 
+
 .name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
-	font-weight: bold;
+	font-weight: var(--bold-font);
 	font-size: 44pt;
 	margin: 10px;
 	margin-left: -4px;
 	white-space: nowrap;
-	overflow: hidden;
 }/*End of name design.*/
 /*-----------------------------------------------------*/
 
@@ -178,7 +178,6 @@ nav ul{
 	margin: 10px;
 	margin-left: -4px;
 	white-space: nowrap;
-	overflow: hidden;
 }/*End of meaning design.*/
 /*-----------------------------------------------------*/
 
@@ -186,7 +185,6 @@ nav ul{
 	color: rgb(121, 117, 114);
 	font-size: 14pt;
 	white-space: nowrap;
-	overflow: hidden;
 }/*End of intro design.*/
 /*-----------------------------------------------------*/
 
