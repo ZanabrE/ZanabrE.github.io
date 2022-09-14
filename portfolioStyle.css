@@ -161,7 +161,7 @@ nav ul{
 /*intro design end*/
 
 .def{
-	width: 25rem;
+	width: 45rem;
 	padding: 0.625rem;
 	border-radius: 6px;
 	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -174,30 +174,25 @@ nav ul{
 }
 /*h2 design end*/
 
-.name{
+.def .name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
 	font-weight: var(--bold-font);
 	font-size: 44pt;
-	margin: 10px;
-	margin-left: -4px;
-	white-space: nowrap;
-}/*End of name design.*/
-/*-----------------------------------------------------*/
+}
+/*name class design end*/
 
-.meaning{
+.def .meaning{
 	color: rgb(121, 117, 114);
 	font-weight: bold;
 	font-size: 38pt;
-	margin: 10px;
-	margin-left: -4px;
-	white-space: nowrap;
-}/*End of meaning design.*/
-/*-----------------------------------------------------*/
+}
+/*meaning class design end*/
 
 .intro{
 	color: rgb(121, 117, 114);
 	font-size: 14pt;
-	white-space: nowrap;
+	line-height: var(--line-height);
+	padding: 0.3rem 0;
 }/*End of intro design.*/
 /*-----------------------------------------------------*/
 
