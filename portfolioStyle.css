@@ -168,6 +168,12 @@ nav ul{
 }
 /*definition class design end*/
 
+.def h2{
+	color: var(--primary-color);
+	margin-bottom: var(--bottom-margin);
+}
+/*h2 design end*/
+
 .name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
 	font-weight: var(--bold-font);
@@ -199,11 +205,6 @@ nav ul{
 	margin-left: 220px;
 	margin-top: 200px;	
 }/*End of about id desing.*/
-/*-----------------------------------------------------*/
-
-h2{
-	color: rgb(148, 162, 97);
-}/*End of h2 element*/
 /*-----------------------------------------------------*/
 
 .about-me{
