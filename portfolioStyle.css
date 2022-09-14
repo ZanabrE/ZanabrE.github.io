@@ -69,6 +69,12 @@ nav{
 }
 /*Navigation end.*/
 
+h1{
+	color: var(--primary-color);
+	font-weight: var(--normal-font);
+}
+/*h1 design end*/
+
 .logo{
 	border-radius: 20px 10px;
 	border: 2px solid var(--primary-color);
@@ -143,16 +149,16 @@ nav ul{
 /*-----------------------------------------------------*/
 
 #intro{
-	margin-left: 220px;
-	padding-top: 180px;
-}/*End of intro block design.*/
-/*-----------------------------------------------------*/
-
-h1{
-	color: var(--primary-color);
-	font-weight: var(--normal-font);
+	/*margin-left: 220px;
+	padding-top: 180px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;
 }
-/*h1 desgin end*/
+/*intro design end*/
 
 .name{
 	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
