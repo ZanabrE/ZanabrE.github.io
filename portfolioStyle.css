@@ -250,9 +250,7 @@ h2{
 /*my self design end*/
 
 .symbols{
-	margin: auto;
-	text-align: justify;
-	margin-top: 0.313rem;
+	display: flex;
 }
 /*symbols design end*/
 
