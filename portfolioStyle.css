@@ -250,7 +250,6 @@ h2{
 /*my self design end*/
 
 .symbols{
-	max-width: 1.25rem;
 	margin: auto;
 	text-align: justify;
 	margin-top: 0.313rem;
@@ -259,6 +258,7 @@ h2{
 
 .row1{
 	padding: 1.25rem;
+	max-width: 1.25rem;
 }
 
 .row2{
