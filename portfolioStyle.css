@@ -250,18 +250,19 @@ h2{
 /*my self design end*/
 
 .symbols{
-	display: flex;
+	justify-content: space-evenly;
+	padding: 1.25rem;
 }
 /*symbols design end*/
 
-.row1{
+.row1, .row2{
+	width: auto;
 	padding: 1.25rem;
-	max-width: 1.875rem;
 }
 
-.row2{
-	padding: 1.25rem;
-	max-width: 1.875rem;
+.framework1:hover{
+	color: var(--primary-color);
+	border-bottom: 2px solid var(--secondary-color);
 }
 
 .arrow1{
