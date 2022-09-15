@@ -208,7 +208,7 @@ h2{
 
 .bio{
 	width: 55rem;
-	padding: 00.625rem;
+	padding: 0.625rem;
 	border-radius: 6px;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -268,9 +268,9 @@ h2{
 
 .framework1{
 	color: var(--secondary-color);
-	margin: 10px;
-}/*End of framework 1 design.*/
-/*-----------------------------------------------------*/
+	margin: 0.625rem;
+}
+/*framework 1 design end*/
 
 .framework1:hover{
 	color: var(--primary-color);
