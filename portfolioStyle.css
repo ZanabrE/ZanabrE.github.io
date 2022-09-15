@@ -174,7 +174,7 @@ h2{
 /*h2 design end*/
 
 .name{
-	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
+	color: var(--tertiary-color);
 	font-weight: var(--bold-font);
 	font-size: 44pt;
 }
@@ -206,8 +206,16 @@ h2{
 }
 /*about design end*/
 
+.bio{
+	width: 55rem;
+	padding: 00.625rem;
+	border-radius: 6px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+/*bio design end*/
+
 .about-me{
-	color: rgba(239, 216, 181, 0.8);/*wheat color.*/
+	color: var(--tertiary-color);
 }
 /*about me design end*/
 
@@ -236,48 +244,36 @@ h2{
 }
 /*my picture hover design end*/
 
-.bio{
-	width: 55rem;
-	padding: 00.625rem;
-	border-radius: 6px;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-}
-/*bio desing end*/
-
 .my-self{
 	color: var(--secondary-color);
-	text-align: justify;
 }
 /*my self design end*/
 
+.symbols{
+	max-width: 1.25rem;
+	margin: auto;
+	text-align: justify;
+	margin-top: 0.313rem;
+}
+/*symbols design end*/
+
+.row1{
+	padding: 1.25rem;
+}
+
+.row2{
+	padding: 1.25rem;
+}
+
 .arrow1{
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 }/*End of arrow 1 design.*/
 /*-----------------------------------------------------*/
 
 .framework1{
-	color: rgb(121, 117, 114);
+	color: var(--secondary-color);
 	margin: 10px;
 }/*End of framework 1 design.*/
-/*-----------------------------------------------------*/
-
-.arrow2{
-	color: rgb(148, 162, 97);
-	padding-left: 80px;
-}/*End of arrow 2 design.*/
-/*-----------------------------------------------------*/
-
-.framework2{
-	color: rgb(121, 117, 114);
-	margin: 10px;
-	
-}/*End of framework 2 design.*/
-/*-----------------------------------------------------*/
-
-.arrow3{
-	color: rgb(148, 162, 97);
-	padding-left: 100px;
-}/*End of arrow 3 design.*/
 /*-----------------------------------------------------*/
 
 #skills{
