@@ -259,22 +259,24 @@ h2{
 	width: auto;
 	padding: 1.25rem;
 }
-
-.framework1:hover{
-	color: var(--primary-color);
-	border-bottom: 2px solid var(--secondary-color);
-}
+/*row1 and 2 design end*/
 
 .arrow1{
 	color: var(--primary-color);
-}/*End of arrow 1 design.*/
-/*-----------------------------------------------------*/
+}
+/*arrow 1 design end*/
 
 .framework1{
 	color: var(--secondary-color);
 	margin: 10px;
 }/*End of framework 1 design.*/
 /*-----------------------------------------------------*/
+
+.framework1:hover{
+	color: var(--primary-color);
+	border-bottom: 2px solid var(--secondary-color);
+}
+/*framework 1 design end*/
 
 #skills{
 	margin-left: 500px;
