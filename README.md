@@ -13,4 +13,5 @@ Everything is working great.
 
 ![icons8-java-50](https://user-images.githubusercontent.com/55057828/190301038-04ce28e8-695f-4004-a396-20c0501cf485.png)
 
+![icons8-javascript-50](https://user-images.githubusercontent.com/55057828/190302192-b76385bf-58ec-4ccf-be0b-06aabfa53d9b.png)
 
