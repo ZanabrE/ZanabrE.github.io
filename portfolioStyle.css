@@ -148,7 +148,7 @@ nav ul{
 }/*End of clear fix.*/
 /*-----------------------------------------------------*/
 
-#intro{
+.intro-info{
 	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
