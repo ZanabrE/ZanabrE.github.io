@@ -165,7 +165,7 @@ nav ul{
 	border-radius: 6px;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
-/*definition class design end*/
+/*class design end*/
 
 h2{
 	color: var(--primary-color);
@@ -259,14 +259,6 @@ h2{
 }
 /*framework 1 design end*/
 
-.skills-info{
-	padding-top: 8.75rem;
-	width: 68.75rem;
-	align-items: center;
-	margin: auto;
-}
-/*skills info desing end*/
-
 h3{
 	color: var(--primary-color);
 	font-size: 18pt;
@@ -286,10 +278,16 @@ h3{
 }
 /*line 2 desing end*/
 
-.align{
+.align-wrapper img{
 	padding: 1.25rem;
-}/*End of align desing.*/
-/*-----------------------------------------------------*/
+}
+/*align wrapper img design end*/
+
+.prog{
+	width: 3.125rem;
+	height: 3.125rem;
+}
+
 
 .icons-1{
 	border: 0px solid rgba(148, 162, 97, 0.1);
