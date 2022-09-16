@@ -119,7 +119,7 @@ nav ul{
 /*description class end*/
 
 .description:hover{
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 	border-bottom: 2px solid var(--secondary-color);
 }
 /*description hover end*/
@@ -159,7 +159,7 @@ nav ul{
 }
 /*intro design end*/
 
-.def{
+.def, .bio, .skill-icons{
 	width: 55rem;
 	padding: 0.625rem;
 	border-radius: 6px;
@@ -194,14 +194,6 @@ h2{
 	padding: 0.3rem 0;
 }
 /*intro class desing end*/
-
-.bio{
-	width: 55rem;
-	padding: 0.625rem;
-	border-radius: 6px;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-}
-/*bio design end*/
 
 .about-me{
 	color: var(--tertiary-color);
@@ -276,7 +268,7 @@ h2{
 /*skills info desing end*/
 
 h3{
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 	font-size: 18pt;
 }/*End of h3 element design.*/
 /*-----------------------------------------------------*/
