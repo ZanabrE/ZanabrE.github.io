@@ -148,7 +148,7 @@ nav ul{
 }/*End of clear fix.*/
 /*-----------------------------------------------------*/
 
-.intro-info, .about, .skills{
+.intro-info, .about-info, .skills-info{
 	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
@@ -266,6 +266,14 @@ h2{
 	border-bottom: 2px solid var(--secondary-color);
 }
 /*framework 1 design end*/
+
+.skills-info{
+	padding-top: 8.75rem;
+	width: 68.75rem;
+	align-items: center;
+	margin: auto;
+}
+/*skills info desing end*/
 
 h3{
 	color: rgb(148, 162, 97);
