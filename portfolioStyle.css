@@ -159,7 +159,7 @@ nav ul{
 }
 /*intro design end*/
 
-.def, .bio, .skill-icons{
+.def, .bio{
 	width: 55rem;
 	padding: 0.625rem;
 	border-radius: 6px;
@@ -277,6 +277,7 @@ h3{
 }
 /*line 2 desing end*/
 
+
 .align-wrapper img{
 	padding: 1.25rem;
 }
@@ -286,15 +287,24 @@ h3{
 	width: 3.125rem;
 	height: 3.125rem;
 }
+/*prog design end*/
 
+.language{
+	/*background-color: #fff;*/
+	border-radius: 11px;
+	text-align: center;
+	box-shadow: 0 3px 10px var(--secondary-shadow);
+	padding: 20px;
+	margin: 10px;
+}
 
 .icons-1{
 	border: 0px solid rgba(148, 162, 97, 0.1);
 	padding: 5px 10px;
-	border-radius: 5px;
-	padding-top: 20px;
+	/*border-radius: 5px;*/
+	/*padding-top: 20px;*/
 	text-align: center;
-	margin: 34px;
+	/*margin: 34px;*/
 }/*End of icons 1 design*/
 /*-----------------------------------------------------*/
 
