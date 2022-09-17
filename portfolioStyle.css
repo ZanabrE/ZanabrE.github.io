@@ -212,8 +212,8 @@ h2{
 	border: 1px solid var(--secondary-color);
 	border-radius: 5px;
 	margin-left: 5rem;
-	height: 20.5rem;
-	width: 20.5rem;
+	height: 18.5rem;
+	width: 18.5rem;
 	float: right;
 }
 /*my picture design end*/
@@ -274,13 +274,14 @@ h3{
 	border: 1px solid rgba(121, 117, 114,0.3);
 	flex-direction: row;
 	display: flex;
-	width: 50%;
+	width: 60%;
 }
 /*line 2 desing end*/
 
 .align-wrapper img{
 	display: flex;
 	padding: 1.25rem;
+	margin: 1.25rem;
 }
 /*align wrapper img design end*/
 
@@ -293,46 +294,24 @@ h3{
 .language{
 	box-shadow: 0 3px 10px var(--secondary-shadow);
 	border-radius: 11px;
-	text-align: center;
-	padding: 20px;
-	margin: 10px;
+	padding: 1.25rem;
+	margin: 0.625rem;
 }
 /*language desing end*/
 
-.icons-1{
+.icons-1, .icons-2{
 	display: flex;
 	padding: auto;
-	margin-top: 2.5rem;
+	margin-top: 3.75rem;
 }
 /*icons 1 design end*/
 
 .language:hover{
-	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
-	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
-	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
-	/*background-color: rgba(121, 117, 114, 0.2);*/
-}/*End of hover design.*/
-/*-----------------------------------------------------*/
-
-.icons-2{
-	border: 0px solid rgba(148, 162, 97, 0.1);
-	padding: 5px 10px;
-	border-radius: 5px;
-	padding-top: 20px;
-	text-align: center;
-	position: center;
-	float: left;
-	margin: 34px;
-}/*End of icons 2 design*/
-/*-----------------------------------------------------*/
-
-.icons-2:hover{
-	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
-	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
-	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
-	background-color: rgba(121, 117, 114, 0.2);
-}/*End of hover design.*/
-/*-----------------------------------------------------*/
+	box-shadow: 0 3px 5px rgb(148, 162, 97),
+	0 6px 10px rgb(148, 162, 97);
+	border-bottom: 6px solid var(--secondary-color);
+}
+/*language hover design end*/
 
 .desc{
 	color: rgb(121, 117, 114);
