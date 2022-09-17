@@ -160,7 +160,7 @@ nav ul{
 /*intro design end*/
 
 .def, .bio, .abilities{
-	width: 55rem;
+	max-width: 68.75rem;
 	padding: 0.625rem;
 	border-radius: 6px;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -211,6 +211,7 @@ h2{
 .mypicture{
 	border: 1px solid var(--secondary-color);
 	border-radius: 5px;
+	margin-left: 5rem;
 	height: 20.5rem;
 	width: 20.5rem;
 	float: right;
@@ -227,6 +228,7 @@ h2{
 
 .my-self{
 	color: var(--secondary-color);
+	
 }
 /*my self design end*/
 
@@ -236,7 +238,6 @@ h2{
 /*symbols design end*/
 
 .row1, .row2{
-	width: auto;
 	padding: 1.25rem;
 }
 /*row1 and 2 design end*/
@@ -278,6 +279,7 @@ h3{
 /*line 2 desing end*/
 
 .align-wrapper img{
+	display: flex;
 	padding: 1.25rem;
 }
 /*align wrapper img design end*/
@@ -289,23 +291,12 @@ h3{
 /*prog design end*/
 
 .language{
-	/*background-color: #fff;*/
+	box-shadow: 0 3px 10px var(--secondary-shadow);
 	border-radius: 11px;
 	text-align: center;
-	box-shadow: 0 3px 10px var(--secondary-shadow);
 	padding: 20px;
 	margin: 10px;
 }
-
-.icons-1{
-	border: 0px solid rgba(148, 162, 97, 0.1);
-	padding: 5px 10px;
-	/*border-radius: 5px;*/
-	/*padding-top: 20px;*/
-	text-align: center;
-	/*margin: 34px;*/
-}/*End of icons 1 design*/
-/*-----------------------------------------------------*/
 
 .icons-1:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
