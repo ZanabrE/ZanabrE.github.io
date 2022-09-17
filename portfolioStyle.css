@@ -235,13 +235,14 @@ h2{
 }
 /*symbols design end*/
 
-.row1, .row2{
+.row1{
 	padding: 0.625rem;
 }
 /*row1 and 2 design end*/
 
 .arrow1{
 	color: var(--primary-color);
+	padding: 0.313rem;
 }
 /*arrow 1 design end*/
 
@@ -330,7 +331,7 @@ h3{
 /*subjects wrapper design end*/
 
 h4{
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 	font-size: 18pt;
 }
 /*h4 design end*/
@@ -358,9 +359,8 @@ h4{
 /*file design end*/
 
 .file:hover{
-	box-shadow: 0 0 3px 5px rgba(148, 162, 97, 0.2),
-	0px 15px 20px rgb(148, 162, 97), 
-	0px 15px 20px rgb(148, 162, 97);
+	box-shadow: 0 3px 5px rgb(148, 162, 97),
+	0 6px 10px rgb(148, 162, 97);
 	border-bottom: 8px solid var(--secondary-color);
 	cursor: pointer;
 }
@@ -379,73 +379,82 @@ h4{
 }
 /*info design end*/
 
-#contact{
-	margin-top: 200px;
-}/*End of contact desing.*/
-/*-----------------------------------------------------*/
+.contact-info{
+	padding-top: 8.75rem;
+	align-items: center;
+	justify-content: center;
+	/*gap: 2.5rem;*/
+	max-width: 68.75rem;
+	margin: auto;
+}
+/*contact info design end*/
 
 h5{
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 	text-align: center;
 	font-size: 16pt;
-}/*End of h5 desing.*/
-/*-----------------------------------------------------*/
+}
+/*h5 design end*/
 
 .contact{
 	padding: 10px;
-}/*End of contact class desing.*/
-/*-----------------------------------------------------*/
+}
+/*contact design end*/
 
 .opinion{
-	color: rgb(239, 216, 181);/*wheat color.*/
+	color: var(--tertiary-color);
 	text-align: center;
 	font-size: 30pt;
-	font-weight: bold;
-	letter-spacing: -1px;
-}/*End of opinion design.*/
-/*-----------------------------------------------------*/
+	font-weight: var(--bold-font);
+}
+/*opinion design end*/
 
 .finale{
-	color: rgb(121, 117, 114);
+	color: var(--secondary-color);
 	text-align: center;
 	
-}/*End of finale design.*/
-/*-----------------------------------------------------*/
+}
+/*finale design end*/
 
 .button{
 	text-align: center;
-	padding: 60px;
-}/*end of button desing.*/
-/*-----------------------------------------------------*/
+	padding: 3.75rem;
+}
+/*button design end*/
 
 .e-mail{
 	border-radius: 5px;
-	border: 2px solid rgb(148, 162, 97);
+	border: 2px solid var(--primary-color);
 	text-decoration: none;
-	color: rgb(148, 162, 97);
+	color: var(--primary-color);
 	text-align: center;
 	font-size: 14pt;
-	padding: 20px 20px;/*this line of code will extend the border.*/
-}/*End of res design.*/
-/*-----------------------------------------------------*/
+	padding: 20px 20px;
+}
+/*e-mail desing end*/
 
 .e-mail:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.5);
 	background-color: rgba(121, 117, 114, 0.5);
 	cursor: pointer;
-}/*End of hover design.*/
-/*-----------------------------------------------------*/
+}
+/*e-mail hover end*/
 
 .social{
-	writing-mode: vertical-rl;
-	margin-left: 40px;
+	flex-direction: column;
+	display: flex;
+	position: fixed;
+	left: 1%;
+	bottom: 30%;
+	/*writing-mode: vertical-rl;*/
+	margin-left: 80px;
 }/*End of social media design.*/
 /*-----------------------------------------------------*/
 
 .social-icons{
-	text-decoration: none;
-}/*End of social icons design.*/
-/*-----------------------------------------------------*/
+	/*text-decoration: none;*/
+}
+/*social icons design end*/
 
 .social-icons:hover{
 	color: rgb(148, 162, 97);
