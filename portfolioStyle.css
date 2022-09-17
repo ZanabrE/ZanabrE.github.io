@@ -446,30 +446,30 @@ h5{
 	position: fixed;
 	left: 1%;
 	bottom: 30%;
-	/*writing-mode: vertical-rl;*/
 	margin-left: 80px;
-}/*End of social media design.*/
-/*-----------------------------------------------------*/
+}
+/*social design end*/
 
 .social-icons{
-	/*text-decoration: none;*/
+	width: 2rem;
+	height: 2rem;
 }
 /*social icons design end*/
 
 .social-icons:hover{
 	color: rgb(148, 162, 97);
 	cursor: pointer;
-}/*End of social icons hover design.*/
-/*-----------------------------------------------------*/
+}
+/*social icons hover design end*/
 
 .social-icons:visit{
 	color: rgb(148, 162, 97);
-}/*End of social icons hover design.*/
-/*-----------------------------------------------------*/
+}
+/*social icons visit design end*/
 
 .copyright{
 	color: rgb(121, 117, 114);
 	text-align: center;
 	margin-top: 100px;
-}/*End of copyright design.*/
-/*-----------------------------------------------------*/
+}
+/*copyroght desing end*/
