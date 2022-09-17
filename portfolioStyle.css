@@ -64,7 +64,7 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	padding: 1.5rem 3.5rem;
-	background-color: rgba(121, 117, 114, 0.1);
+	background-color: var(--bg-color);
 	box-shadow: 0 3px 5px rgba(121, 117, 114, 0.1);
 }
 /*Navigation end.*/
@@ -153,11 +153,9 @@ nav ul{
 }
 /*intro design end*/
 
-.def, .bio, .abilities, .subjects{
-	max-width: 68.75rem;
+.def{
+	width: 62.5rem;
 	padding: 0.625rem;
-	border-radius: 6px;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 /*class design end*/
 
@@ -188,6 +186,13 @@ h2{
 	padding: 0.3rem 0;
 }
 /*intro class desing end*/
+
+.bio{
+	width: 52rem;
+	padding: 0.625rem;
+	border-radius: 6px;
+}
+/*bio design end*/
 
 .about-me{
 	color: var(--tertiary-color);
@@ -222,7 +227,6 @@ h2{
 
 .my-self{
 	color: var(--secondary-color);
-	
 }
 /*my self design end*/
 
@@ -232,8 +236,7 @@ h2{
 /*symbols design end*/
 
 .row1, .row2{
-	padding: 1.25rem;
-	margin-top: 0.313rem;
+	padding: 0.625rem;
 }
 /*row1 and 2 design end*/
 
@@ -254,6 +257,13 @@ h2{
 }
 /*framework 1 design end*/
 
+.abilities{
+	max-width: 60rem;
+	margin: auto;
+	margin-top: 2.5rem;
+}
+/*abilities design end*/
+
 h3{
 	color: var(--primary-color);
 	font-size: 18pt;
@@ -273,8 +283,13 @@ h3{
 }
 /*line 2 desing end*/
 
+.align-wrapper{
+	max-width: 68.75rem;
+	margin: auto;
+}
+/*align wrapper design end */
+
 .align-wrapper img{
-	display: flex;
 	padding: 1.25rem;
 	margin: 1.25rem;
 }
@@ -294,19 +309,18 @@ h3{
 }
 /*language desing end*/
 
-.icons-1, .icons-2{
-	display: flex;
-	padding: 20px;
-	margin: 10px;
-}
-/*icons 1 design end*/
-
 .language:hover{
 	box-shadow: 0 3px 5px rgb(148, 162, 97),
 	0 6px 10px rgb(148, 162, 97);
 	border-bottom: 6px solid var(--secondary-color);
 }
 /*language hover design end*/
+
+.subjects{
+	width: 62.5rem;
+	padding: 0.625rem;
+}
+/*class design end*/
 
 .subjects-wrapper{
 	display: flex;
@@ -362,7 +376,6 @@ h4{
 	color:var(--secondary-color);
 	text-align: justify;
 	white-space: nowrap;
-	/*overflow: hidden;*/
 }
 /*info design end*/
 
