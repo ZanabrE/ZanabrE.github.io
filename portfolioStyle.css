@@ -141,7 +141,8 @@ nav ul{
 }
 /*resume design hover end*/
 
-.intro-info, .about-info, .skills-info, .work-projects{
+.intro-info, .about-info,
+ .skills-info, .work-projects{
 	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
@@ -306,18 +307,6 @@ h3{
 	border-bottom: 6px solid var(--secondary-color);
 }
 /*language hover design end*/
-
-.desc{
-	color: rgb(121, 117, 114);
-	font-size: 14pt;
-}/*End of description desgin.*/
-/*-----------------------------------------------------*/
-
-#work{
-	margin-left: 260px;
-	margin-top: 200px;	
-}/*End of work id desing.*/
-/*-----------------------------------------------------*/
 
 h4{
 	color: rgb(148, 162, 97);
