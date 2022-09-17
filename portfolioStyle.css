@@ -141,14 +141,7 @@ nav ul{
 }
 /*resume design hover end*/
 
-.clearfix::after{
-	content: "";
-	clear: both;
-	display: table;
-}/*End of clear fix.*/
-/*-----------------------------------------------------*/
-
-.intro-info, .about-info, .skills-info{
+.intro-info, .about-info, .skills-info, .work-projects{
 	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
@@ -159,7 +152,7 @@ nav ul{
 }
 /*intro design end*/
 
-.def, .bio, .abilities{
+.def, .bio, .abilities, .subjects{
 	max-width: 68.75rem;
 	padding: 0.625rem;
 	border-radius: 6px;
