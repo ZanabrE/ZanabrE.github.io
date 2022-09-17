@@ -233,7 +233,7 @@ h2{
 /*my self design end*/
 
 .symbols{
-	padding: 1.25rem;
+	padding: 0.625rem;
 }
 /*symbols design end*/
 
@@ -297,12 +297,20 @@ h3{
 	padding: 20px;
 	margin: 10px;
 }
+/*language desing end*/
 
-.icons-1:hover{
+.icons-1{
+	display: flex;
+	padding: auto;
+	margin-top: 2.5rem;
+}
+/*icons 1 design end*/
+
+.language:hover{
 	box-shadow: 0 0 2px 2px rgba(148, 162, 97, 0.2),
 	0px 15px 20px -5px rgba(148, 162, 97, 0.3), 
 	0px 15px 20px -7px rgba(148, 162, 97, 0.3);
-	background-color: rgba(121, 117, 114, 0.2);
+	/*background-color: rgba(121, 117, 114, 0.2);*/
 }/*End of hover design.*/
 /*-----------------------------------------------------*/
 
