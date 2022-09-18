@@ -535,4 +535,9 @@ h5{
 	nav ul.show{
 		transform: translateX(0);
 	}
+
+	.bio{
+		align-items: center;
+		justify-content: center;
+	}
 }
