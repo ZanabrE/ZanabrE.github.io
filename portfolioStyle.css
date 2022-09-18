@@ -383,7 +383,7 @@ h4{
 /*title desing end*/
 
 .info{
-	color:var(--secondary-color);
+	color: var(--secondary-color);
 	text-align: justify;
 	white-space: nowrap;
 }
@@ -466,6 +466,10 @@ h5{
 /*social icons design end*/
 
 .social-icons:hover{
+	box-shadow: 0 3px 5px rgb(148, 162, 97),
+	0 6px 10px rgb(148, 162, 97);
+	border-radius: 5%;
+	border-bottom: 2px solid var(--secondary-color);
 	cursor: pointer;
 }
 /*social icons hover design end*/
@@ -478,7 +482,7 @@ h5{
 .scroll-up{
 	position: fixed;
 	right: 0.5%;
-	bottom: 3%;
+	bottom: 6%;
 	cursor: pointer;
 	margin-right: 80px;
 }
@@ -490,6 +494,12 @@ h5{
 }
 /*up arrow design end*/
 
+.up-arrow:hover{
+	box-shadow: 0 3px 5px rgb(148, 162, 97),
+	0 6px 10px rgb(148, 162, 97);
+	border-radius: 50%;
+	border-bottom: 2px solid var(--secondary-color);
+}
 .copyright{
 	color: rgb(121, 117, 114);
 	text-align: center;
@@ -500,5 +510,29 @@ h5{
 @media  screen and (max-width: 720px){
 	nav{
 		padding: 1.5rem 1rem;
+	}
+
+	nav ul{
+		position: fixed;
+		background-color: var(--bg-color);
+		flex-direction: column;
+		top: 86px;
+		left: 10%;
+		width: 80%;
+		text-align: center;
+		transform: translateX(120%);
+		transition: transform 0.5s ease-in;
+	}
+
+	nav ul il{
+		margin: 8px;
+	}
+
+	.acor-menu{
+		display: block;
+	}
+
+	nav ul.show{
+		transform: translateX(0);
 	}
 }
