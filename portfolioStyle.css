@@ -536,8 +536,28 @@ h5{
 		transform: translateX(0);
 	}
 
+	.intro{
+		text-align: justify;
+	}
+
+	.about-info{
+		padding-top: 8rem;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.about-info img{
+		height: 18.5rem;
+		width: 18.5rem;
+		margin-right: 80px;
+	}
+
 	.bio{
-		align-items: center;
-		justify-content: center;
+		padding-top: 0.625rem;
+		width: 20.5rem;
+	}
+
+	.my-self{
+		text-align: justify;
 	}
 }
