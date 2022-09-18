@@ -514,7 +514,7 @@ h5{
 
 	nav ul{
 		position: fixed;
-		background-color: var(--bg-color);
+		background-color: rgba(38, 74, 119, 0.2);
 		flex-direction: column;
 		top: 86px;
 		left: 10%;
