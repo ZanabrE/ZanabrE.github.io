@@ -46,7 +46,7 @@ a:hover{
 
 body{
 	font-family: var(--font-family);
-	background-color: rgb(38, 74, 119);
+	background-color: var(--bg-color);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -115,6 +115,7 @@ nav ul{
 
 .description{
 	color: var(--secondary-color);
+	transition: var(--transition);
 }
 /*description class end*/
 
@@ -127,7 +128,6 @@ nav ul{
 .res{
 	border-radius: 5px;
 	border: 2px solid var(--primary-color);
-	text-decoration: none;
 	color: var(--primary-shadow);
 	text-align: center;
 	font-size: 14pt;
@@ -383,7 +383,6 @@ h4{
 	padding-top: 8.75rem;
 	align-items: center;
 	justify-content: center;
-	/*gap: 2.5rem;*/
 	max-width: 68.75rem;
 	margin: auto;
 }
@@ -457,7 +456,6 @@ h5{
 /*social icons design end*/
 
 .social-icons:hover{
-	color: rgb(148, 162, 97);
 	cursor: pointer;
 }
 /*social icons hover design end*/
@@ -473,3 +471,9 @@ h5{
 	margin-top: 100px;
 }
 /*copyroght desing end*/
+
+@media  screen and (max-width: 720px){
+	nav{
+		padding: 1.5rem 1rem;
+	}
+}
