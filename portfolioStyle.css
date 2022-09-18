@@ -141,6 +141,16 @@ nav ul{
 }
 /*resume design hover end*/
 
+.acor-menu{
+	color: var(--primary-color);
+	font-size: 2rem;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	display: none;
+}
+/*acordion menu design end*/
+
 .intro-info, .about-info,
  .skills-info, .work-projects{
 	padding-top: 8.75rem;
