@@ -25,5 +25,15 @@ function load(){
 		$('.copyright').hide();
 		$('.copyright').show('slide', {direction: "up"},2000);
 	});
-	
+
+	//scroll to top
+	const scrollup = document.querySelector("#scroll-up");
+
+	scrollup.addEventListener("click", () => {
+		window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "smooth",
+		});
+	});
 }
