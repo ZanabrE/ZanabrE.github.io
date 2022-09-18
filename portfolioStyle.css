@@ -367,8 +367,7 @@ h4{
 	border: 2px solid rgba(148, 162, 97, 0.1);
 	border-radius: 11px;
 	padding: 5px 10px;
-	text-align: justify;
-	margin: 20px;
+	margin: 1.25rem;
 }
 /*file design end*/
 
@@ -389,7 +388,7 @@ h4{
 .info{
 	color: var(--secondary-color);
 	text-align: justify;
-	width: auto;
+	width: 13.75rem;
 }
 /*info design end*/
 
