@@ -36,4 +36,22 @@ function load(){
 			behavior: "smooth",
 		});
 	});
+
+	//navigation accordion selections.
+	const acordion = document.querySelector("#acor-menu");
+	const ul = document.querySelector("nav ul");
+	const nav = document.querySelector("nav");
+
+	acordion.addEventListener("click", () => {
+		ul.classList.toggle("show");
+	});
+
+	//Navigation links.
+	const description = document.querySelector(".description");
+
+	description.forEach((description) => {
+		description.addEventListener("click", () => {
+			ul.classList.remove("show");
+		})
+	});
 }
