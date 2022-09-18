@@ -475,6 +475,21 @@ h5{
 }
 /*social icons visit design end*/
 
+.scroll-up{
+	position: fixed;
+	right: 0.5%;
+	bottom: 3%;
+	cursor: pointer;
+	margin-right: 80px;
+}
+/*scroll up design end*/
+
+.up-arrow{
+	width: 3rem;
+	height: 3rem;
+}
+/*up arrow design end*/
+
 .copyright{
 	color: rgb(121, 117, 114);
 	text-align: center;
