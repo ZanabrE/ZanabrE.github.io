@@ -397,6 +397,7 @@ h4{
 	padding-top: 8.75rem;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	max-width: 68.75rem;
 	margin: auto;
 }
@@ -424,8 +425,9 @@ h5{
 
 .finale{
 	color: var(--secondary-color);
-	text-align: center;
-	max-width: 68.75rem;
+	margin-left: 240px;
+	text-align: justify;
+	width: 39.375rem;
 }
 /*finale design end*/
 
@@ -657,7 +659,16 @@ h5{
 		width: 18.75rem;
 	}
 
+	.contact-info{
+		padding-top: 2.5rem;
+		flex-direction: column;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
 	.finale{
 		text-align: justify;
+		margin-left: 60px;
+		margin-right: 60px;
 	}
 }
