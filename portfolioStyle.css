@@ -488,7 +488,7 @@ h5{
 	right: 0.5%;
 	bottom: 6%;
 	cursor: pointer;
-	margin-right: 80px;
+	margin-right: 20px;
 }
 /*scroll up design end*/
 
@@ -623,8 +623,11 @@ h5{
 		width: 1.25rem;
 	}
 
-	.subjects{
-		padding-top: 8rem;
+	.subjects-wrapper{
 		flex-direction: column;
+	}
+
+	div{
+		width: 18.75rem;
 	}
 }
