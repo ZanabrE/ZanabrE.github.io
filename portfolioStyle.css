@@ -425,7 +425,7 @@ h5{
 .finale{
 	color: var(--secondary-color);
 	text-align: center;
-	
+	max-width: 68.75rem;
 }
 /*finale design end*/
 
@@ -590,6 +590,18 @@ h5{
 
 /*@media for responsive tablets and mobile 420px*/
 @media  screen and (max-width: 420px) {
+	.def{
+		padding-top: 2.5rem;
+		margin-left: 80px;
+		margin-right: 80px;
+		width: 20.5rem;
+	}
+
+	.intro{
+		text-align: justify;
+		width: 20.5rem;
+	}
+
 	.about-info{
 		padding-top: 8rem;
 		flex-direction: column;
@@ -615,7 +627,7 @@ h5{
 	}
 
 	.skills-info{
-		padding-top: 8rem;
+		padding-top: 5rem;
 	}
 
 	.language{
@@ -623,11 +635,29 @@ h5{
 		width: 1.25rem;
 	}
 
+	.work-projects{
+		padding-top: 8rem;
+	}
+
+	.subjects{
+		padding-top: 2.5rem;
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+
+	.subjects h4{
+		margin: 40px;
+	}
+
 	.subjects-wrapper{
 		flex-direction: column;
 	}
 
-	div{
+	.subject-wrap{
 		width: 18.75rem;
+	}
+
+	.finale{
+		text-align: justify;
 	}
 }
