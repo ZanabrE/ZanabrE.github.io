@@ -425,9 +425,7 @@ h5{
 
 .finale{
 	color: var(--secondary-color);
-	margin-left: 240px;
-	text-align: justify;
-	width: 39.375rem;
+	text-align: center;
 }
 /*finale design end*/
 
@@ -659,16 +657,10 @@ h5{
 		width: 18.75rem;
 	}
 
-	.contact-info{
+	.contatto{
 		padding-top: 2.5rem;
-		flex-direction: column;
 		margin-left: 60px;
 		margin-right: 60px;
 	}
 
-	.finale{
-		text-align: justify;
-		margin-left: 60px;
-		margin-right: 60px;
-	}
 }
