@@ -47,11 +47,13 @@ function load(){
 	});
 
 	//Navigation links.
-	const description = document.querySelector(".description");
+	const description = document.querySelectorAll(".link");
 
-	description.forEach((description) => {
-		description.addEventListener("click", () => {
+	description.forEach((link) => 
+		link.addEventListener("click", () => {
 			ul.classList.remove("show");
 		})
-	});
+	);
+
+	
 }
