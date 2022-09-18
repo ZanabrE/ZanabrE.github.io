@@ -256,13 +256,14 @@ h2{
 
 .arrow1{
 	color: var(--primary-color);
-	padding: 0.313rem;
+	text-align: justify;
+	padding: 0.625rem;
 }
 /*arrow 1 design end*/
 
 .framework1{
 	color: var(--secondary-color);
-	margin: 0.625rem;
+	padding: 0.625rem;
 }
 /*framework 1 design end*/
 
@@ -458,7 +459,7 @@ h5{
 	position: fixed;
 	left: 1%;
 	bottom: 30%;
-	margin-left: 80px;
+	margin-left: 20px;
 }
 /*social design end*/
 
@@ -510,6 +511,7 @@ h5{
 }
 /*copyroght desing end*/
 
+/*@media for responsive tablets and mobile 720px*/
 @media  screen and (max-width: 720px){
 	nav{
 		padding: 1.5rem 1rem;
@@ -539,10 +541,55 @@ h5{
 		transform: translateX(0);
 	}
 
+	.intro-info{
+		padding-top: 8rem;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.def{
+		padding-top: 8rem;
+		margin-left: 80px;
+		margin-right: 80px;
+		width: 20.5rem;
+	}
+
 	.intro{
+		text-align: justify;
+		width: 20.5rem;
+	}
+
+	.about-info{
+		padding-top: 8rem;
+	}
+
+	.about-info img{
+		height: 18.5rem;
+		width: 18.5rem;
+	}
+
+	.my-self{
 		text-align: justify;
 	}
 
+	.skills-info{
+		padding-top: 8rem;
+	}
+
+	.work-projects{
+		justify-content: center;
+		width: 20.5rem;
+	}
+
+	.subjects{
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	
+}
+
+/*@media for responsive tablets and mobile 420px*/
+@media  screen and (max-width: 420px) {
 	.about-info{
 		padding-top: 8rem;
 		flex-direction: column;
@@ -557,10 +604,27 @@ h5{
 
 	.bio{
 		padding-top: 0.625rem;
+		margin-left: 80px;
+		margin-right: 80px;
 		width: 20.5rem;
 	}
 
 	.my-self{
 		text-align: justify;
+		width: 20.5rem;
+	}
+
+	.skills-info{
+		padding-top: 8rem;
+	}
+
+	.language{
+		height: 1.25rem;
+		width: 1.25rem;
+	}
+
+	.subjects{
+		padding-top: 8rem;
+		flex-direction: column;
 	}
 }
