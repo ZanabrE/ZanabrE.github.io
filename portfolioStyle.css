@@ -240,23 +240,21 @@ h2{
 }
 /*my self design end*/
 
-.row1{
-	justify-content: center;
+.row1, .row2{
 	margin-left: 1.25rem;
 }
 /*row1 and 2 design end*/
 
-.arrow1{
+.arrow1, .arrow2{
 	color: var(--primary-color);
-	justify-content: space-evenly;
-	text-align: justify;
 }
 /*arrow 1 design end*/
 
-.framework1{
+.framework1, .framework2{
 	color: var(--secondary-color);
+	justify-content: space-evenly;
+	text-align: justify;
 	padding: 0.625rem;
-	display: flex;
 }
 /*framework 1 design end*/
 
