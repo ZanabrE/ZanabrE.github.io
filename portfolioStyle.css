@@ -225,7 +225,6 @@ h2{
 	margin-left: 5rem;
 	height: 18.5rem;
 	width: 18.5rem;
-	float: right;
 }
 /*my picture design end*/
 
@@ -240,7 +239,6 @@ h2{
 .my-self{
 	color: var(--secondary-color);
 	text-align: justify;
-	width: 27.5rem;
 }
 /*my self design end*/
 
@@ -522,7 +520,7 @@ h5{
 		background-color: rgba(38, 74, 119, 0.2);
 		flex-direction: column;
 		top: 86px;
-		left: 10%;
+		left: -14%;
 		width: 80%;
 		text-align: center;
 		transform: translateX(120%);
@@ -547,45 +545,27 @@ h5{
 		gap: 0;
 	}
 
-	.def{
-		padding-top: 8rem;
-		margin-left: 80px;
-		margin-right: 80px;
-		width: 20.5rem;
-	}
-
-	.intro{
-		text-align: justify;
-		width: 20.5rem;
-	}
-
 	.about-info{
-		padding-top: 8rem;
-	}
-
-	.about-info img{
-		height: 18.5rem;
-		width: 18.5rem;
-	}
-
-	.my-self{
-		text-align: justify;
+		flex-direction: column;
+		gap: 0;
 	}
 
 	.skills-info{
 		padding-top: 8rem;
 	}
 
-	.work-projects{
-		justify-content: center;
-		width: 20.5rem;
+	.subjects h4{
+		margin-left: 800px;
+	}
+	.subjects-wrapper{
+		flex-direction: column;
 	}
 
-	.subjects{
-		margin-left: 80px;
-		margin-right: 80px;
+	.subject-wrap{
+		margin-left: 10px;
+		margin-right: 10px;
 	}
-	
+
 }
 
 /*@media for responsive tablets and mobile 420px*/
@@ -602,27 +582,15 @@ h5{
 		width: 20.5rem;
 	}
 
-	.about-info{
-		padding-top: 8rem;
-		flex-direction: column;
-		gap: 0;
+	.mypicture{
+		margin-left: 60px;
+		margin-right: 60px;
+		height: 16.5rem;
+		width: 16.5rem;
 	}
-
-	.about-info img{
-		height: 18.5rem;
-		width: 18.5rem;
-		margin-right: 80px;
-	}
-
+	
 	.bio{
-		padding-top: 0.625rem;
-		margin-left: 80px;
-		margin-right: 80px;
-		width: 20.5rem;
-	}
-
-	.my-self{
-		text-align: justify;
+		margin-left: 10px;
 		width: 20.5rem;
 	}
 
@@ -647,10 +615,6 @@ h5{
 
 	.subjects h4{
 		margin: 40px;
-	}
-
-	.subjects-wrapper{
-		flex-direction: column;
 	}
 
 	.subject-wrap{
