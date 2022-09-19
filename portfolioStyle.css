@@ -164,8 +164,7 @@ nav ul{
 /*intro design end*/
 
 .def{
-	width: 62.5rem;
-	padding: 0.625rem;
+	padding-right: 6.25rem;
 }
 /*class design end*/
 
@@ -199,13 +198,6 @@ h2{
 }
 /*intro class desing end*/
 
-.bio{
-	width: 52rem;
-	padding: 0.625rem;
-	border-radius: 6px;
-}
-/*bio design end*/
-
 .about-me{
 	color: var(--tertiary-color);
 }
@@ -236,26 +228,25 @@ h2{
 }
 /*my picture hover design end*/
 
+.bio{
+	margin-left: 100px;
+}
 .my-self{
 	color: var(--secondary-color);
 	text-align: justify;
+	width: 27.5rem;
 }
 /*my self design end*/
 
-.symbols{
-	padding: 0.625rem;
-}
-/*symbols design end*/
-
 .row1{
-	padding: 0.625rem;
+	padding: 0.313rem;
+	margin: 0.313rem;
 }
 /*row1 and 2 design end*/
 
 .arrow1{
 	color: var(--primary-color);
 	text-align: justify;
-	padding: 0.625rem;
 }
 /*arrow 1 design end*/
 
