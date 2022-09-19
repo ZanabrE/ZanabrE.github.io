@@ -255,12 +255,12 @@ h2{
 	justify-content: space-evenly;
 	text-align: justify;
 	padding: 0.625rem;
+	margin: 0.625rem;
 }
 /*framework 1 design end*/
 
 .framework1:hover{
 	color: var(--primary-color);
-	border-bottom: 2px solid var(--secondary-color);
 }
 /*framework 1 design end*/
 
