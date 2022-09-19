@@ -256,6 +256,7 @@ h2{
 .framework1{
 	color: var(--secondary-color);
 	padding: 0.625rem;
+	display: flex;
 }
 /*framework 1 design end*/
 
