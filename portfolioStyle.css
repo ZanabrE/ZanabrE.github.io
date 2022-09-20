@@ -430,9 +430,9 @@ h5{
 
 .finale{
 	color: var(--secondary-color);
-	margin-left: 200px;
+	margin-left: 230px;
 	text-align: center;
-	max-width: 42.50rem;
+	max-width: 40rem;
 }
 /*finale design end*/
 
@@ -479,7 +479,7 @@ h5{
 .social-icons:hover{
 	box-shadow: 0 3px 5px rgb(148, 162, 97),
 	0 6px 10px rgb(148, 162, 97);
-	border-radius: 5%;
+	border-radius: 50%;
 	border-bottom: 2px solid var(--secondary-color);
 	cursor: pointer;
 }
