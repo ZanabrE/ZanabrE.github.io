@@ -247,8 +247,9 @@ h2{
 
 .arrow1, .arrow2{
 	color: var(--primary-color);
+	margin-left: 0.313rem;
 }
-/*arrow 1 design end*/
+/*arrow 1 and 2 design end*/
 
 .framework1, .framework2{
 	color: var(--secondary-color);
@@ -257,17 +258,22 @@ h2{
 	padding: 0.625rem;
 	margin: 0.625rem;
 }
-/*framework 1 design end*/
+/*framework 1 and 2design end*/
 
 .framework1:hover{
 	color: var(--primary-color);
 }
 /*framework 1 design end*/
 
+.framework2:hover{
+	color: var(--primary-color);
+}
+/*framework 2 design end*/
+
 .abilities{
 	max-width: 60rem;
 	margin: auto;
-	margin-top: 2.5rem;
+	margin-top: 8.75rem;
 }
 /*abilities design end*/
 
@@ -324,17 +330,14 @@ h3{
 /*language hover design end*/
 
 .subjects{
-	width: 62.5rem;
-	padding: 0.625rem;
+	padding-top: 8rem;
 }
 /*class design end*/
 
-.subjects-wrapper{
-	display: flex;
-	padding: 1.25rem;
-	margin: 1.25rem;
+.subjects h4{
+	margin-left: 10px;
 }
-/*subjects wrapper design end*/
+/*subjects h4 desing end*/
 
 h4{
 	color: var(--primary-color);
@@ -355,11 +358,22 @@ h4{
 }
 /*line 3 design end*/
 
+.subjects-wrapper{
+	display: flex;
+}
+/*subjects wrapper design end*/
+
+.subject-wrap{
+	margin: 0.313rem;
+	padding: 0.313rem;
+}
+/*subject wrap design end*/
+
 .file{
 	border: 2px solid rgba(148, 162, 97, 0.1);
 	border-radius: 11px;
-	padding: 5px 10px;
-	margin: 1.25rem;
+	padding: 2px 5px;
+	margin: auto;
 }
 /*file design end*/
 
