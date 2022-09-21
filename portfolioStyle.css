@@ -238,7 +238,6 @@ h2{
 .my-self{
 	color: var(--secondary-color);
 	text-align: justify;
-	width: 20rem;
 }
 /*my self design end*/
 
@@ -565,14 +564,21 @@ h5{
 		width: 13.75rem;
 	}
 
+	h3{
+		margin-left: 40px;
+	}
+
 	.my-self{
 		text-align: justify;
+		margin-left: 40px;
+		margin-right: 40px;
 		width: 15rem;
 	}
 
 	.symbols{
 		width: 2.5rem;
 		height: 2.5rem;
+		margin-left: 40px;
 	}
 
 	.skills-info{
@@ -596,6 +602,17 @@ h5{
 
 	.subjects-wrapper{
 		flex-direction: column;
+	}
+
+	.contact-info{
+		justify-content: center;
+		text-align: center;
+	}
+
+	.contact-info, .finale{
+		margin-left: 40px;
+		margin-right: 40px;
+		text-align: center;
 	}
 
 }
@@ -622,8 +639,5 @@ h5{
 
 	.contatto{
 		padding-top: 2.5rem;
-		margin-left: 60px;
-		margin-right: 60px;
 	}
-
 }
