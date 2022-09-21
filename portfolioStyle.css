@@ -299,7 +299,6 @@ h3{
 
 .align-wrapper{
 	max-width: 68.75rem;
-	margin: auto;
 }
 /*align wrapper design end */
 
@@ -318,7 +317,7 @@ h3{
 .language{
 	box-shadow: 0 3px 10px var(--secondary-shadow);
 	border-radius: 11px;
-	padding: 1.25rem;
+	padding: 0.625rem;
 	margin: 0.625rem;
 }
 /*language desing end*/
@@ -532,7 +531,7 @@ h5{
 		background-color: rgba(38, 74, 119, 0.2);
 		flex-direction: column;
 		top: 86px;
-		left: -14%;
+		left: 0;
 		width: 80%;
 		text-align: center;
 		transform: translateX(120%);
@@ -551,92 +550,74 @@ h5{
 		transform: translateX(0);
 	}
 
+	.intro{
+		text-align: justify;
+		width: 15rem;
+	}
+
 	.about-info{
 		flex-direction: column;
 		gap: 0;
+	}
+
+	.mypicture{
+		height: 13.75rem;
+		width: 13.75rem;
+	}
+
+	.my-self{
+		text-align: justify;
+		width: 15rem;
+	}
+
+	.symbols{
+		width: 2.5rem;
+		height: 2.5rem;
 	}
 
 	.skills-info{
 		padding-top: 8rem;
 	}
 
-	.subjects{
-		margin-left: 60px;
-		margin-right: 60px;
-		width: 20.5rem;
+	.abilities h3{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.abilities img{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.language{
+		height: 1.875rem;
+		width: 1.875rem;
 	}
 
 	.subjects-wrapper{
 		flex-direction: column;
 	}
 
-	.subject-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-
-	.contact-info{
-		margin-left: 60px;
-		margin-right: 60px;
-		width: auto;
-	}
-
-	.contact-info, .finale{
-		margin-left: 80px;
-	}
 }
 
 /*@media for responsive tablets and mobile 420px*/
 @media  screen and (max-width: 420px) {
-	.def{
-		padding-top: 2.5rem;
+	.bio{
 		margin-left: 80px;
 		margin-right: 80px;
-		width: 20.5rem;
-	}
-
-	.intro{
-		text-align: justify;
-		width: 20.5rem;
-	}
-
-	.mypicture{
-		margin-left: 60px;
-		margin-right: 60px;
-		height: 16.5rem;
-		width: 16.5rem;
-	}
-	
-	.bio{
-		margin-left: 10px;
-		width: 20.5rem;
+		width: auto;
 	}
 
 	.skills-info{
 		padding-top: 5rem;
 	}
 
-	.language{
-		height: 1.25rem;
-		width: 1.25rem;
-	}
-
 	.work-projects{
 		padding-top: 8rem;
 	}
 
-	.subjects{
-		padding-top: 2.5rem;
-		margin-left: 80px;
-		margin-right: 80px;
-	}
-
 	.subjects h4{
-		margin: 40px;
-	}
-
-	.subject-wrap{
-		width: 18.75rem;
+		margin: 20px;
 	}
 
 	.contatto{
