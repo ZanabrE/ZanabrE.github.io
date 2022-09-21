@@ -152,7 +152,7 @@ nav ul{
 /*acordion menu design end*/
 
 .intro-info, .about-info,
- .skills-info, .work-projects{
+ .skills-info{
 	padding-top: 8.75rem;
 	display: flex;
 	align-items: center;
@@ -330,13 +330,19 @@ h3{
 }
 /*language hover design end*/
 
-.subjects{
-	padding-top: 8rem;
+.work-projects{
+	padding-top: 8.75rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;
 }
-/*class design end*/
+/*work projects design end*/
 
 .subjects h4{
-	margin-left: 10px;
+	margin-left: 20px;
 }
 /*subjects h4 desing end*/
 
@@ -365,8 +371,7 @@ h4{
 /*subjects wrapper design end*/
 
 .subject-wrap{
-	margin: 0.313rem;
-	padding: 0.313rem;
+	padding: 0.625rem;
 }
 /*subject wrap design end*/
 
@@ -395,7 +400,7 @@ h4{
 .info{
 	color: var(--secondary-color);
 	text-align: justify;
-	width: 13.75rem;
+	width: 12.5rem;
 }
 /*info design end*/
 
@@ -431,9 +436,6 @@ h5{
 
 .finale{
 	color: var(--secondary-color);
-	margin-left: 230px;
-	text-align: center;
-	max-width: 40rem;
 }
 /*finale design end*/
 
@@ -553,14 +555,17 @@ h5{
 		flex-direction: column;
 		gap: 0;
 	}
-		
+
 	.skills-info{
 		padding-top: 8rem;
 	}
 
-	h4{
-		margin-left: 900px;
+	.subjects{
+		margin-left: 60px;
+		margin-right: 60px;
+		width: 20.5rem;
 	}
+
 	.subjects-wrapper{
 		flex-direction: column;
 	}
@@ -570,6 +575,15 @@ h5{
 		margin-right: 10px;
 	}
 
+	.contact-info{
+		margin-left: 60px;
+		margin-right: 60px;
+		width: auto;
+	}
+
+	.contact-info, .finale{
+		margin-left: 80px;
+	}
 }
 
 /*@media for responsive tablets and mobile 420px*/
