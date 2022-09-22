@@ -72,7 +72,7 @@ body{
 /*info design end*/
 
 .fundamentals{
-    margin-top: 7.5rem;
+    margin-top: 6.25rem;
     display: flex;
     max-width: fit-content;
 }
@@ -94,10 +94,20 @@ h2{
 }
 /*intro design end*/
 
-p{
+.text1{
     font-family: var(--font-family-2);
-    width: 20rem;
+    margin-right: 580px;
+    text-align: justify;
 }
+/*text 1 design end*/
+
+.list1{
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 580px;
+}
+/*list 1 design end*/
 
 
 .dashboard1{
