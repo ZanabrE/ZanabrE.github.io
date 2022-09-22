@@ -44,7 +44,7 @@
                     is usually created.
                     An <strong>operating system (OS)</strong> is a specialized computer
                     program that provides the following features:
-                </p>
+                </p><!--End of text 1.-->
 
                 <ul class="list1">
                     <li>
@@ -81,6 +81,71 @@
             </div><!--End of fund info.-->
         </section><!--End of fundamentals.-->
 
+        <section class="cpu">
+            <div class="dashboard2">
+                <img src="images/controlunit.PNG" alt="Control Unit" style="float:right;width:350px;height:150px;"/>
+                <img src="images/ALU.JPG" alt="Arithmetic Logic Unit" style="float:right;width:350px;height:150px;"/>
+                <img src="images/systembus.JPG" alt="System Bus" style="float:right;width:350px;height:150px;"/>
+            </div><!--End of dashboard 2.-->
+
+            <div class="central">
+                <h3>The Central Processing Unit</h3>
+                <p class="text2">
+                    The CPU is the chip that performs the actual computational and logic work.
+                    Most modern PCs have one such chip, and are referred to as <strong>single-processor computers</strong>. 
+                    In reality, to ensure complete functionality,the CPU requires several support chips, such as chips that
+                    help manage communication with devices and device drivers.
+                    Chip technology continues to develop with the addition of multicore processors.
+                    A processor <strong>core</strong> is the part of the CPU that reads and executes basic instrucions, such
+                    as reading and writing data from and to memory or executing an arithmetic operation. CPUs were originally
+                    created to have only one core and thus perform only one instruction at a time. A multicore processor has two
+                    or more cores&mdash;for exmaple, a dual-core processor contains two cores and a quad-core processor has four. 
+                    The most processor cores used in a traditional PC desktops and servers is 16 as of this writing, but high-end 
+                    CPUs, such as Intel's Knights Landing, have up to 72 cores. Development continues in this area, and scientists
+                    so far have put as many as 1000 cores on a single CPU chip.
+                </p>
+
+                <p><strong class="basic">Basic CPU Architecture</strong></p>
+                <p class="text2">Most CPUs are composed of the following elements:</p>
+
+                <ul class="list2">
+                    <li>
+                        <i>Control unit</i>&mdash;The <strong>control unit (CU)</strong> is the director of operations
+                        in the CPU. The control unit provides timing and cordination between the other parts of the CPU, such
+                        as the arithmetic logic unit, registers, and system bus. For example, when a new instruction should be
+                        executed, the control unit receives and decodes the instruction and tells the arithmetic logic unit to
+                        execute it.
+                    </li>
+                    <br>
+                    <li>
+                        <i>Arithmetic logic unit</i>&mdash;The <strong>arithmetic logic unit (ALU)</strong> performs the
+                        primary task of any CPU, which is to execute instructions. These might be arithmetic instructions, such
+                        as addition or multiplication of integers, or logic instructions, such as binary AND or binary OR 
+                        instructions. Most CPUs also contain a <strong>floating point unit (FPU)</strong> that performs floating
+                        point operations.
+                    </li>
+                    <br>
+                    <li>
+                        <i>Registers</i>&mdash;A <strong>register</strong> is a temporary holding location on a CPU where data
+                        must be placed before the CPU can use it. There are instruction registers that hold the instruction the CPU
+                        executes, such as add, multiply, or store. Also, the CPU uses address registers to access data stored in RAM,
+                        and data registers that hold the data the CPU is currently working with, such as two numbers used in an add
+                        or multiply instruction.
+                    </li>
+                    <br>
+                    <li>
+                        <i>System bus</i>&mdash;The system bus is a series of lanes that are used to communicate between the
+                        CPU and other major parts of the computer, such as RAM and input/output (I/O) devices. There are actually
+                        three types of buses: the control bus,address bus, and data bus. The <strong>control bus</strong> carries
+                        status signal between the CPU and other devices. Status signals inform the CPU that a device needs attention;
+                        for example, when an input device has data ready, the CPU must execute the device driver code to read the
+                        data from the device. The <strong>address bus</strong> carries address signals to indicate where data should
+                        be read from or written to in the system's memory. The <strong>data bus</strong> carries actual data that is
+                        being read from or written to the system memory.
+                    </li>
+                </ul><!--End of list 2.-->
+            </div><!--End of central.-->
+        </section><!--End of CPU.-->
         <script>
             animation();
         </script>
