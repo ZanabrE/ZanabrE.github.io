@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Raleway:wght@400;600;700;900&display=swap');
+
+/*Variables*/
+:root{
+    --font-family: "Audiowide", cursive;
+    --font-family-2: "Raleway", sans-serif;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --primary-color: rgb(207, 207, 199);
+    --secondary-color: rgb(151, 146, 139);
+    --line-height: normal;
+    --transition: 0.3s;
+}
+/*variables end*/
+
+html{
+    scroll-behavior: smooth;
+}
+/*html end*/
+
+/*CSS reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-family);
+    font-family: var(--font-family-2);
+    background-image: linear-gradient(rgba(207,207,199,0),
+	rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+/*CCS reset end*/
+
+.header{
+    text-align: center;
+    border: 0.125rem solid gray;
+    border-radius: 0.75rem;
+    padding: 0.313rem;
+    background-color: var(--primary-color);
+}
+/*header class end*/
+
+.header, .os{
+    /*font-size: var(--normal-font);*/
+    font-size: 30pt;
+    font-family: var(--font-family);
+}
