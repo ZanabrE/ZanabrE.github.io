@@ -71,10 +71,14 @@ body{
 }
 /*info design end*/
 
+p{
+    margin-top: 10px;
+}
+/*p design end*/
+
 .fundamentals{
     margin-top: 6.25rem;
     display: flex;
-    max-width: fit-content;
 }
 /*fundamentals design end*/
 
@@ -109,17 +113,60 @@ h2{
 }
 /*list 1 design end*/
 
+.cpu{
+    margin-top: 8.75rem;
+    display: flex;
+}
+/*cpu design end*/
+
+.central{
+    margin-left: 10px;
+}
+/*central design end*/
+
+h3{
+    font-family: var(--font-family);
+    font-size: 20pt;
+}
+/*h3 design end*/
+
+.text2{
+    font-family: var(--font-family-2);
+    margin-right: 36.25rem;
+    text-align: justify;
+}
+/*text 2 design end*/
+
+.list2{
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 580px;
+}
+/*list 2 desing end*/
+
+
 
 .dashboard1{
     width: 400px;
     background-color: var(--secondary-color);
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
     position: absolute;
     right: -380px;
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
 /*dashboards design end*/
+
+.dashboard2{
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    right: -380px;
+    z-index: 100;
+    border-radius: 12px 0 0 12px;
+}
 
 img{
     margin-bottom: 0.625rem;
