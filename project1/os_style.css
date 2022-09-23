@@ -142,11 +142,6 @@ strong{
 }
 /*text 2 design end*/
 
-.basic{
-    font-family: var(--font-family);
-}
-/*basic design end*/
-
 .list2{
     margin-top: 10px;
     margin-left: 40px;
@@ -190,14 +185,56 @@ strong{
 }
 /*network design end*/
 
+.network, .dashboard4{
+    margin-top: 11.25rem;
+}
+/*network dashboard 4 design end*/
 
+.connections{
+    margin-left: 10px;
+}
+/*connections desgin end*/
+
+.text4{
+    font-family: var(--font-family-2);
+    margin-right: 36.25rem;
+    text-align: justify;
+}
+/*text 4 design end*/
+
+.list4{
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 580px;
+}
+/*list 4 design end*/
+
+.click{
+    margin-top: 80px;
+    text-align: center;
+}
+/*click design end*/
+
+.button{
+    background-color: rgba(207, 207, 199, 0.1);
+    border: 0.125rem solid gray;
+    font-family: var(--font-family);
+    border-radius: 5px;
+    font-size: 18pt;
+}
+/*button design end*/
+
+.button:hover{
+    box-shadow: 0 10px 14px rgba(151, 146, 139, 0.1);
+}
 
 .dashboard1{
     width: 400px;
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -380px;
+    right: 180px;
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
@@ -208,7 +245,7 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -380px;
+    left: 380px;
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
@@ -219,7 +256,7 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -380px;
+    left: 380px;
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
@@ -230,7 +267,7 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -380px;
+    left: 580px;
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
