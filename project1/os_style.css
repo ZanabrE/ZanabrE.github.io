@@ -236,11 +236,11 @@ strong{
 .dashboard1{
     width: 400px;
     background-color: var(--secondary-color);
-    padding: 10px 20px 0 20px;
+    padding: 20px 20px 0 20px;
     position: absolute;
-    right: 180px;
+    left: -92px;
     z-index: 100;
-    border-radius: 12px 0 0 12px;
+    border-radius: 0 12px 12px 0;
 }
 /*dashboards design end*/
 
@@ -249,9 +249,9 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: 180px;
+    left: -92px;
     z-index: 100;
-    border-radius: 12px 0 0 12px;
+    border-radius: 0 12px 12px 0;
 }
 /*dashboard 2 design end*/
 
@@ -260,9 +260,9 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: 180px;
+    right: -92px;
     z-index: 100;
-    border-radius: 12px 0 0 12px;
+    border-radius: 0 12px 12px 0;
 }
 /*dashboard 3 design end*/
 
@@ -271,9 +271,9 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: 180px;
+    right: -92px;
     z-index: 100;
-    border-radius: 12px 0 0 12px;
+    border-radius: 0 12px 12px 0;
 }
 /*dashboard 4 design end*/
 
