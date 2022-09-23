@@ -119,6 +119,11 @@ h2{
 }
 /*cpu design end*/
 
+.cpu, .dashboard2{
+    margin-top: 13.125rem;
+}
+/*cpu dashboard 2 design end*/
+
 .central{
     margin-left: 10px;
 }
