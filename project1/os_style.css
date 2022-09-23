@@ -129,12 +129,6 @@ h2{
 }
 /*central design end*/
 
-h3{
-    font-family: var(--font-family);
-    font-size: 20pt;
-}
-/*h3 design end*/
-
 .text2{
     font-family: var(--font-family-2);
     margin-right: 36.25rem;
@@ -155,7 +149,27 @@ h3{
 }
 /*list 2 desing end*/
 
+.cloud{
+    margin-top: 7.5rem;
+    display: flex;
+}
+/*cloud design end*/
 
+.cloud, .dashboard3{
+    margin-top: 13.125rem;
+}
+/*cloud dashboard 3 design end*/
+
+.computing{
+    margin-left: 10px;
+}
+/*computing desing end*/
+
+.services{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+/*services design end*/
 
 .dashboard1{
     width: 400px;
@@ -177,6 +191,18 @@ h3{
     z-index: 100;
     border-radius: 12px 0 0 12px;
 }
+/*dashboard 2 design end*/
+
+.dashboard3{
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    right: -380px;
+    z-index: 100;
+    border-radius: 12px 0 0 12px;
+}
+/*dashboard 3 design end*/
 
 img{
     margin-bottom: 0.625rem;
