@@ -15,7 +15,7 @@ function animation(){
                 // out
                 $(this).stop().animate(
                     {
-                        right: '-380px',
+                        right: '180px',
                         backgroundColor: 'rgb(151, 146, 139)'
                     },
                     1500,
