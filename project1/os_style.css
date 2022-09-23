@@ -114,7 +114,7 @@ h2{
 /*list 1 design end*/
 
 .cpu{
-    margin-top: 8.75rem;
+    margin-top: 7.5rem;
     display: flex;
 }
 /*cpu design end*/
@@ -141,6 +141,11 @@ h3{
     text-align: justify;
 }
 /*text 2 design end*/
+
+.basic{
+    font-family: var(--font-family);
+}
+/*basic design end*/
 
 .list2{
     margin-top: 10px;
