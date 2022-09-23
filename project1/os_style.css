@@ -79,9 +79,23 @@ p{
 
 .fundamentals{
     margin-top: 6.25rem;
+    justify-content: center;
+    margin-left: 320px;
     display: flex;
 }
 /*fundamentals design end*/
+
+.dashboard1{
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    left: -92px;
+    z-index: 100;
+    margin-left: -290px;
+    border-radius: 0 12px 12px 0;
+}
+/*dashboards design end*/
 
 .fund-info{
     margin-left: 10px;
@@ -228,18 +242,6 @@ strong{
 .button:hover{
     box-shadow: 0 10px 14px rgba(151, 146, 139, 0.1);
 }
-
-.dashboard1{
-    width: 400px;
-    background-color: var(--secondary-color);
-    padding: 10px 20px 0 20px;
-    position: absolute;
-    left: -290px;
-    z-index: 100;
-    margin-left: -290px;
-    border-radius: 0 12px 12px 0;
-}
-/*dashboards design end*/
 
 .dashboard2{
     width: 400px;
