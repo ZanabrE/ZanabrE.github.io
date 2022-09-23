@@ -80,17 +80,22 @@ p{
 .fundamentals{
     margin-top: 6.25rem;
     justify-content: center;
-    margin-left: 320px;
+    margin-left: 420px;
     display: flex;
 }
 /*fundamentals design end*/
 
+.fundamentals, .dashboard1{
+    margin-top: 110px;
+}
+/*fundamentals dashboard 1 desgin end*/
+
 .dashboard1{
-    width: 400px;
+    width: 280px;
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    left: -92px;
+    left: -262px;
     z-index: 100;
     border-radius: 0 12px 12px 0;
 }
@@ -119,7 +124,7 @@ strong{
 
 .text1{
     font-family: var(--font-family-2);
-    margin-right: 580px;
+    margin-right: 380px;
     text-align: justify;
 }
 /*text 1 design end*/
@@ -128,7 +133,7 @@ strong{
     margin-top: 10px;
     margin-left: 40px;
     text-align: justify;
-    margin-right: 580px;
+    margin-right: 380px;
 }
 /*list 1 design end*/
 
