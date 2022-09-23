@@ -1,6 +1,6 @@
 function animation(){
     $(document).ready(function () {
-        $('.dashboard1, .dashboard2').hover(function () {
+        $('.dashboard1, .dashboard2, .dashboard3').hover(function () {
                 // in
                 $(this).stop().animate(
                     {
