@@ -214,8 +214,108 @@
                 </p>
             </div><!--End of computing.-->
         </section><!--End of cloud.-->
+
+        <section class="network">
+            <div class="dashboard4">
+                <img src="images/network-interface-card.JPG" alt="Network Interface Card" style="float:right;width:350px;height:150px;"/>
+                <img src="images/network-client-server.JPG" alt="Network Client-Server" style="float:right;width:350px;height:150px;"/>
+                <img src="images/protocols.PNG" alt="Protocols" style="float:right;width:350px;height:150px;"/>
+            </div>
+
+            <div class="connections">
+                <h2>Configuring a Network Connection</h2>
+                <p class="communication"><strong>The Fundamentals of Network Communication</strong></p>
+                <p class="text4">
+                    A computer <strong>network</strong> consists of two or more computers connected by some kind of transmission
+                    medium, such as a cable or airwaves. After they're connected, correctly configured computers can communicate 
+                    with one another. The primary motivations for networking are to share resources, such as printers and hard 
+                    drives; to share information, such as word-processing files; and to communicate by using applications such as
+                    e-mail. These motivations are important, especially for businesses, but another motivating factor for both 
+                    businesses and home users is to "get online"&mdash;to access the Internet.
+                </p>
+
+                <p class="components"><strong>Network Components</strong></p>
+                <p class="text4">
+		            These are the required components to network a computer:
+                </p>
+
+                <ul class="list4">
+                    <li>
+                        <i>Network interface card (NIC)</i>&mdash;A <strong>NIC (pronounced <i>nick</i>)</strong> is an add-on 
+                        card that's plugged into a motherboard expansion slot and provides a connection between the computer and the
+                        network. Most computers have a NIC built into the motherboard, so an additional card is not necessary.
+                    </li>
+                    <br>
+                    <li>
+                        <i>Network medium</i>&mdash;This cable plugs into the NIC and makes the connection between a computer and 
+                        the rest of the network. In networks with just two computers, the other end of the cable can plug into the 
+                        second computer's NIC. More likely, the other end of the cable plugs into an interconnecting device that 
+                        accommodates several computer connections. Network media can also be airwaves, as in wireless networks. In this
+                        case, the connection is made between the antenna on the NIC and the antenna on another NIC or interconnecting 
+                        device.
+                    </li>
+                    <br>
+                    <li>
+                        <i>Interconnecting device</i>&mdash;Although this component isn't always necessary becasue two computers 
+                        can be connected directly with a cable and small wireless networks can be configured without an interconnecting
+                        device, most networks include one or several of these components. They allow computers to communicate on a network
+                        without being connected directly. Interconnecting devices include switches, hubs, routers, and wireless access 
+                        point.
+                    </li>
+                </ul><!--End of the first list 4.-->
+
+                <p class="text4">
+                    The preceding hardware components make a stand-alone computer into a networked computer, but software is also
+                    needed to interact with network hardware and communicate with other computers on the network. Network software 
+                    transform a stand-alone OS into a network OS. It's the software that allows a word-processing program to open a 
+                    document on a server and knows how to request a Web page or send an e-mail. It's also the software that communicates
+                    between the OS and network hardware. 
+                </p>
+
+                <p class="text4">
+                    Network software can be divided into the following:
+                </p>
+
+                <ul class="list4">
+                    <li>
+                        <i>Network clients and servers</i>&mdash;<strong>Network client software</strong> request information that's stored
+                        on another network computer or device. <strong>Network server software</strong> allows a computer to share its resources 
+                        by responding to resource request generated by network clients. Network client software can be an integral part of 
+                        well-known aplications, such as Web browsers and e-mail programs.
+                    </li>
+                    <br>
+                    <li>
+                        <i>Protocols</i>&mdash;When clients and servers need to send information on the network, they must pass it to 
+                        <strong>network protocols</strong>, which define the rules and formats a computer must use when sending information 
+                        accross the network. A network protocol can be likened to a human language. Just as two people communicate by speaking
+                        the same language, two computers communicate by using the same protocol. An example of a network protocol is <strong>
+                        TCP/IP</strong>. Network protocols perform all the behind-the-scenes tasks required to handle networking functions and 
+                        most of their complexity.
+                    </li>
+                    <br>
+                    <li>
+                        <i>NIC device driver</i>&mdash;After the network protocol has formatted a message correctly, it hands the data off 
+                        to the NIC driver for transmission onto the network. NIC drivers receive data from protocols and then forward it to the 
+                        physical NIC, which transmist the data onto the medium. The revese is also true. When data arrives at the NIC from the 
+                        medium, the NIC hands it off to the NIC driver, which then hands it off to the network protocols. Every NIC installed 
+                        in a computer must have an associated device driver installed in the OS. The device driver software manages the details
+                        of communicating wiht the NIC hardware to send data to network media and receive data from it.
+                    </li>
+                </ul><!--End of the second list 4.-->
+            </div><!--End of connections-->
+        </section><!--End of network-->
+
+        <section class="click">
+            <button class="button" onclick="quiz()">Take Quiz</button>
+        </section>
+
         <script>
             animation();
         </script>
+
+        <footer class="copyright">
+            <p>Design &amp; Created by Ernesto L Zanabria</p>
+            <p>Copyright &copy; 2022, All Rights Reserve</p>
+        </footer>
     </body>
 </html>
