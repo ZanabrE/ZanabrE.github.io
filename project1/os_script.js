@@ -1,10 +1,10 @@
 function animation(){
     $(document).ready(function () {
-        $('.dashboard1, .dashboard2, .dashboard3').hover(function () {
+        $('.dashboard1, .dashboard2, .dashboard3, .dashboard4').hover(function () {
                 // in
                 $(this).stop().animate(
                     {
-                        right: '0',
+                        left: '0',
                         backgroundColor: 'rgba(207, 207, 199, 0.3)'
                     },
                     500,
@@ -15,7 +15,7 @@ function animation(){
                 // out
                 $(this).stop().animate(
                     {
-                        right: '-92px',
+                        left: '-92px',
                         backgroundColor: 'rgb(151, 146, 139)'
                     },
                     1500,
