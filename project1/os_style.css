@@ -114,7 +114,7 @@ h2{
 /*list 1 design end*/
 
 .cpu{
-    margin-top: 7.5rem;
+    margin-top: 2.5rem;
     display: flex;
 }
 /*cpu design end*/
@@ -150,13 +150,13 @@ h2{
 /*list 2 desing end*/
 
 .cloud{
-    margin-top: 7.5rem;
+    margin-top: 2.5rem;
     display: flex;
 }
 /*cloud design end*/
 
 .cloud, .dashboard3{
-    margin-top: 13.125rem;
+    margin-top: 16.875rem;
 }
 /*cloud dashboard 3 design end*/
 
@@ -165,11 +165,23 @@ h2{
 }
 /*computing desing end*/
 
-.services{
+.text3{
+    font-family: var(--font-family-2);
+    margin-right: 36.25rem;
+    text-align: justify;
+}
+/*text 3 design end*/
+
+.list3{
     margin-top: 10px;
     margin-left: 40px;
 }
 /*services design end*/
+
+.soft, .plat, .infra{
+    font-family: var(--font-family);
+}
+/*soft plat infra design end*/
 
 .dashboard1{
     width: 400px;
