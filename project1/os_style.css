@@ -46,6 +46,7 @@ body{
     border-radius: 0.75rem;
     padding: 1.25rem;
     background-color: rgba(207, 207, 199, 0.1);
+    margin: 0.625rem;
 }
 /*header design end*/
 
@@ -97,6 +98,11 @@ h2{
     font-family: var(--font-family-2);
 }
 /*intro design end*/
+
+strong{
+    font-family: var(--font-family);
+}
+/*strong desing end*/
 
 .text1{
     font-family: var(--font-family-2);
@@ -178,10 +184,13 @@ h2{
 }
 /*services design end*/
 
-.soft, .plat, .infra{
-    font-family: var(--font-family);
+.network{
+    margin-top: 6.25rem;
+    display: flex;
 }
-/*soft plat infra design end*/
+/*network design end*/
+
+
 
 .dashboard1{
     width: 400px;
@@ -215,6 +224,17 @@ h2{
     border-radius: 12px 0 0 12px;
 }
 /*dashboard 3 design end*/
+
+.dashboard4{
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    right: -380px;
+    z-index: 100;
+    border-radius: 12px 0 0 12px;
+}
+/*dashboard 4 design end*/
 
 img{
     margin-bottom: 0.625rem;
