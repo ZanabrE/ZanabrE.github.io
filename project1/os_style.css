@@ -83,10 +83,6 @@ p{
 }
 /*fundamentals design end*/
 
-.dashboard1{
-    margin-left: 480px;
-}
-
 .fund-info{
     margin-left: 10px;
 }
@@ -236,10 +232,11 @@ strong{
 .dashboard1{
     width: 400px;
     background-color: var(--secondary-color);
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
     position: absolute;
-    left: -92px;
+    left: -290px;
     z-index: 100;
+    margin-left: -290px;
     border-radius: 0 12px 12px 0;
 }
 /*dashboards design end*/
