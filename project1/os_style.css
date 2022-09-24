@@ -176,7 +176,7 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -250px;
+    left: -250px;
     z-index: 100;
     border-radius: 0 12px 12px 0;
 }
@@ -212,7 +212,7 @@ strong{
     background-color: var(--secondary-color);
     padding: 10px 20px 0 20px;
     position: absolute;
-    right: -250px;
+    left: -250px;
     z-index: 100;
     border-radius: 0 12px 12px 0;
 }
@@ -261,12 +261,12 @@ strong{
 
 .copyright{
     background-color: rgba(207, 207, 199, 0.1);
-    /*margin-top: 100px;*/
     text-align: center;
     border: 2px solid gray;
     border-radius: 0.75rem;
     margin: 0.625rem;
 }
+/*copyright design end*/
 
 img{
     margin-bottom: 0.625rem;
