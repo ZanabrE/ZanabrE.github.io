@@ -108,7 +108,7 @@ strong{
 
 .text1{
     font-family: var(--font-family-2);
-    margin-right: 380px;
+    margin-right: 360px;
     text-align: justify;
 }
 /*text 1 design end*/
@@ -117,30 +117,36 @@ strong{
     margin-top: 10px;
     margin-left: 40px;
     text-align: justify;
-    margin-right: 380px;
+    margin-right: 360px;
 }
 /*list 1 design end*/
 
 .cpu{
-    margin-top: 2.5rem;
+    margin-top: 10rem;
     margin-left: 320px;
     display: flex;
 }
 /*cpu design end*/
 
-.cpu, .dashboard2{
-    margin-top: 13.125rem;
+.dashboard2{
+    margin-top: 260px;
 }
 /*cpu dashboard 2 design end*/
 
-.central{
-    margin-left: 10px;
+.dashboard2{
+    width: 270px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    left: -250px;
+    z-index: 100;
+    border-radius: 0 12px 12px 0;
 }
-/*central design end*/
+/*dashboard 2 design end*/
 
 .text2{
     font-family: var(--font-family-2);
-    margin-right: 36.25rem;
+    margin-right: 360px;
     text-align: justify;
 }
 /*text 2 design end*/
@@ -149,29 +155,36 @@ strong{
     margin-top: 10px;
     margin-left: 40px;
     text-align: justify;
-    margin-right: 580px;
+    margin-right: 360px;
 }
 /*list 2 desing end*/
 
 .cloud{
-    margin-top: 2.5rem;
+    margin-top: 10rem;
+    margin-left: 320px;
     display: flex;
 }
 /*cloud design end*/
 
-.cloud, .dashboard3{
-    margin-top: 16.875rem;
+.dashboard3{
+    margin-top: 230px;
 }
-/*cloud dashboard 3 design end*/
+/*dashboard 3 design end*/
 
-.computing{
-    margin-left: 10px;
+.dashboard3{
+    width: 270px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    right: -250px;
+    z-index: 100;
+    border-radius: 0 12px 12px 0;
 }
-/*computing desing end*/
+/*dashboard 3 design end*/
 
 .text3{
     font-family: var(--font-family-2);
-    margin-right: 36.25rem;
+    margin-right: 360px;
     text-align: justify;
 }
 /*text 3 design end*/
@@ -183,15 +196,27 @@ strong{
 /*services design end*/
 
 .network{
-    margin-top: 6.25rem;
+    margin-top: 10rem;
+    margin-left: 320px;
     display: flex;
 }
 /*network design end*/
 
-.network, .dashboard4{
+.dashboard4{
     margin-top: 11.25rem;
 }
 /*network dashboard 4 design end*/
+
+.dashboard4{
+    width: 270px;
+    background-color: var(--secondary-color);
+    padding: 10px 20px 0 20px;
+    position: absolute;
+    right: -250px;
+    z-index: 100;
+    border-radius: 0 12px 12px 0;
+}
+/*dashboard 4 design end*/
 
 .connections{
     margin-left: 10px;
@@ -200,7 +225,7 @@ strong{
 
 .text4{
     font-family: var(--font-family-2);
-    margin-right: 36.25rem;
+    margin-right: 360px;
     text-align: justify;
 }
 /*text 4 design end*/
@@ -209,12 +234,12 @@ strong{
     margin-top: 10px;
     margin-left: 40px;
     text-align: justify;
-    margin-right: 580px;
+    margin-right: 360px;
 }
 /*list 4 design end*/
 
 .click{
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
 }
 /*click design end*/
@@ -225,45 +250,23 @@ strong{
     font-family: var(--font-family);
     border-radius: 5px;
     font-size: 18pt;
+    margin-bottom: 60px;
 }
 /*button design end*/
 
 .button:hover{
-    box-shadow: 0 10px 14px rgba(151, 146, 139, 0.1);
+    box-shadow: 0 10px 14px rgba(207, 207, 199, 0.5);
 }
+/*button hover design end*/
 
-.dashboard2{
-    width: 400px;
-    background-color: var(--secondary-color);
-    padding: 10px 20px 0 20px;
-    position: absolute;
-    left: -92px;
-    z-index: 100;
-    border-radius: 0 12px 12px 0;
+.copyright{
+    background-color: rgba(207, 207, 199, 0.1);
+    /*margin-top: 100px;*/
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 0.75rem;
+    margin: 0.625rem;
 }
-/*dashboard 2 design end*/
-
-.dashboard3{
-    width: 400px;
-    background-color: var(--secondary-color);
-    padding: 10px 20px 0 20px;
-    position: absolute;
-    right: -92px;
-    z-index: 100;
-    border-radius: 0 12px 12px 0;
-}
-/*dashboard 3 design end*/
-
-.dashboard4{
-    width: 400px;
-    background-color: var(--secondary-color);
-    padding: 10px 20px 0 20px;
-    position: absolute;
-    right: -92px;
-    z-index: 100;
-    border-radius: 0 12px 12px 0;
-}
-/*dashboard 4 design end*/
 
 img{
     margin-bottom: 0.625rem;
