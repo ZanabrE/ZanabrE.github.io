@@ -55,6 +55,7 @@ body{
 
 .header_text{
     padding-top: 3.125rem;
+    padding-bottom: 2.5rem;
     font-size: 14pt;
 }
 /*header text design end*/
@@ -67,9 +68,8 @@ body{
 /*info design end*/
 
 .fundamentals{
-    margin-top: 6.25rem;
-    width: 68.75rem;
     margin: auto;
+    width: 50rem;
 }
 /*fundamentals design end*/
 
@@ -91,88 +91,61 @@ strong{
 /*text 1 design end*/
 
 .list1{
-    margin-top: 10px;
     margin-left: 20px;
     text-align: justify;
 }
 /*list 1 design end*/
 
 .cpu{
-    margin-top: 10rem;
-    margin-left: 320px;
-    display: flex;
+    margin: auto;
+    width: 50rem;
 }
 /*cpu design end*/
 
-.dashboard2{
-    margin-top: 260px;
-}
-/*cpu dashboard 2 design end*/
-
 .text2{
     font-family: var(--font-family-2);
-    margin-right: 360px;
     text-align: justify;
 }
 /*text 2 design end*/
 
 .list2{
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-align: justify;
-    margin-right: 360px;
 }
 /*list 2 desing end*/
 
 .cloud{
-    margin-top: 10rem;
-    margin-left: 320px;
-    display: flex;
+    margin: auto;
+    width: 50rem;
 }
 /*cloud design end*/
 
-.dashboard3{
-    margin-top: 230px;
-}
-/*dashboard 3 design end*/
-
 .text3{
     font-family: var(--font-family-2);
-    margin-right: 360px;
     text-align: justify;
 }
 /*text 3 design end*/
 
 .list3{
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 /*services design end*/
 
 .network{
-    margin-top: 10rem;
-    margin-left: 320px;
-    display: flex;
+    margin: auto;
+    width: 50rem;
 }
 /*network design end*/
 
-.connections{
-    margin-left: 10px;
-}
-/*connections desgin end*/
-
 .text4{
     font-family: var(--font-family-2);
-    margin-right: 360px;
     text-align: justify;
 }
 /*text 4 design end*/
 
 .list4{
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-align: justify;
-    margin-right: 360px;
 }
 /*list 4 design end*/
 
