@@ -79,19 +79,13 @@ p{
 
 .fundamentals{
     margin-top: 6.25rem;
-    justify-content: center;
-    margin-left: 420px;
+    margin-left: 320px;
     display: flex;
 }
 /*fundamentals design end*/
 
-.fundamentals, .dashboard1{
-    margin-top: 110px;
-}
-/*fundamentals dashboard 1 desgin end*/
-
 .dashboard1{
-    width: 290px;
+    width: 270px;
     background-color: var(--secondary-color);
     padding: 20px 20px 0 20px;
     position: absolute;
@@ -101,21 +95,11 @@ p{
 }
 /*dashboards design end*/
 
-.fund-info{
-    margin-left: 10px;
-}
-/*fund info design end*/
-
 h2{
     font-family: var(--font-family);
     font-size: 22pt;
 }
 /*h2 design end*/
-
-.intro{
-    font-family: var(--font-family-2);
-}
-/*intro design end*/
 
 strong{
     font-family: var(--font-family);
@@ -139,6 +123,7 @@ strong{
 
 .cpu{
     margin-top: 2.5rem;
+    margin-left: 320px;
     display: flex;
 }
 /*cpu design end*/
