@@ -23,12 +23,9 @@ html{
 /*CSS reset*/
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body{
-    font-family: var(--font-family);
     font-family: var(--font-family-2);
     background-image: linear-gradient(rgba(207,207,199,0),
 	rgba(207,207,199,0.3)), url(images/wallpaperflare.com_wallpaper.jpg);
@@ -41,46 +38,38 @@ body{
 /*CCS reset end*/
 
 .header{
+    background-color: rgba(207, 207, 199, 0.1);
     text-align: center;
     border: 0.125rem solid gray;
     border-radius: 0.75rem;
-    padding: 1.25rem;
-    background-color: rgba(207, 207, 199, 0.1);
-    margin: 0.625rem;
+    padding: 0.125rem;
+    margin: 0.125rem;
 }
 /*header design end*/
 
 .os{
-    font-size: 38pt;
+    font-size: 34pt;
     font-family: var(--font-family);
 }
 /*os design end*/
 
 .header_text{
     padding-top: 3.125rem;
-    text-align: center;
-    font-size: 16pt;
-    font-family: var(--font-family-2);
+    font-size: 14pt;
 }
 /*header text design end*/
 
 .info{
     text-align: center;
-    margin-left: 28.75rem;
-    margin-right: 28.75rem;
-    font-family: var(--font-family-2);
+    width: 400px;
+    margin: auto;
 }
 /*info design end*/
 
-p{
-    margin-top: 10px;
-}
-/*p design end*/
-
 .fundamentals{
     margin-top: 6.25rem;
-    margin-left: 320px;
-    display: flex;
+    margin-left: 180px;
+    width: 55rem;
 }
 /*fundamentals design end*/
 
@@ -108,16 +97,16 @@ strong{
 
 .text1{
     font-family: var(--font-family-2);
-    margin-right: 360px;
     text-align: justify;
+    width: 37.5rem;
 }
 /*text 1 design end*/
 
 .list1{
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-align: justify;
-    margin-right: 360px;
+    margin-right: 20px;
 }
 /*list 1 design end*/
 
@@ -275,19 +264,23 @@ img{
 /*img design end*/
 
 @media screen and (max-width: 720px) {
-    body{
-        font-family: var(--font-family);
-        font-family: var(--font-family-2);
-        background-image: linear-gradient(rgba(207,207,199,0),
-        rgba(207,207,199,0.3)), url(images/wallpaperflare.com_wallpaper.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
+    .dashboard1{
+        width: 270px;
+        background-color: var(--secondary-color);
+        padding: 20px 20px 0 20px;
+        position: absolute;
+        left: -250px;
+        z-index: 100;
+        border-radius: 0 12px 12px 0;
     }
+    /*dashboards design end*/
+}
 
-    .header_text p{
-        max-width: 20.5rem;
+@media screen and (max-width: 420px){
+    .info{
+        text-align: center;
+        margin: auto;
+        width: 280px;
     }
+    
 }
