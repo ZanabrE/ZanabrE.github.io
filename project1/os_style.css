@@ -273,3 +273,21 @@ img{
     border: 2px solid var(--secondary-color);
 }
 /*img design end*/
+
+@media screen and (max-width: 720px) {
+    body{
+        font-family: var(--font-family);
+        font-family: var(--font-family-2);
+        background-image: linear-gradient(rgba(207,207,199,0),
+        rgba(207,207,199,0.3)), url(images/wallpaperflare.com_wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .header_text p{
+        max-width: 20.5rem;
+    }
+}
