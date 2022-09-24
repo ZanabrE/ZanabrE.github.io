@@ -59,7 +59,7 @@ function quiz(){
     //first variable to style my results page.
     var style1 = {
         "text-align": "center",
-        "margin": "600px",
+        "margin": "0 600px",
         "border": "2px solid gray",
         "boder-radius": "12px",
         "padding": "5px",
