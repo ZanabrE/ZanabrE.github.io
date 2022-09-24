@@ -186,10 +186,7 @@ img{
 /*img design end*/
 
 @media screen and (max-width: 720px) {
-    .fundamentals{
-        width: 50rem;
-        margin: auto;
-    }
+    
 }
 
 @media screen and (max-width: 420px){
