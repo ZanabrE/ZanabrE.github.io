@@ -68,8 +68,9 @@ body{
 /*info design end*/
 
 .fundamentals{
-    margin: auto;
-    width: 43.75rem;
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /*fundamentals design end*/
 
@@ -81,8 +82,18 @@ h2{
 
 strong{
     font-family: var(--font-family);
+    box-shadow: inset 0 0 0 0 var(--primary-color);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 /*strong desing end*/
+
+strong:hover{
+    color: var(--primary-color);
+    box-shadow: inset 500px 0 0 0 var(--secondary-color);
+}
+/*strong hover design end*/
 
 .text1{
     font-family: var(--font-family-2);
@@ -97,8 +108,9 @@ strong{
 /*list 1 design end*/
 
 .cpu{
-    margin: auto;
-    width: 43.75rem;
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /*cpu design end*/
 
@@ -115,8 +127,9 @@ strong{
 /*list 2 desing end*/
 
 .cloud{
-    margin: auto;
-    width: 43.75rem;
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /*cloud design end*/
 
@@ -132,8 +145,9 @@ strong{
 /*services design end*/
 
 .network{
-    margin: auto;
-    width: 43.75rem;
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /*network design end*/
 
