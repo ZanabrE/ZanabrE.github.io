@@ -186,9 +186,7 @@ img{
 /*img design end*/
 
 @media screen and (max-width: 720px) {
-    #show{
-        margin: auto;
-    }
+    
 }
 
 @media screen and (max-width: 420px){

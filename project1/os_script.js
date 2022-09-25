@@ -66,5 +66,5 @@ function quiz(){
 
     var obj3 = document.getElementById('link').href;
     Object.assign(obj3.style, style3);
-
+    
 }
