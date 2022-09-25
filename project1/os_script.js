@@ -26,7 +26,16 @@ function quiz(){
         }
     }
 
+    document.write('<!DOCTYPE html>');
+    document.write('<html lang="en">');
+    document.write('<head>');
+    document.write('<meta charset="UTF-8">');
+    document.write('<title>Results</title>');
+    document.write('</head>');
+    document.write('<body>');
     document.write('<h1 id="show">Results</h1>');
+    document.write('</body');
+    document.write('</html>');
     //first variable to style my results page.
     var style1 = {
         "text-align": "center",
