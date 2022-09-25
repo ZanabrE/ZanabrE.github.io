@@ -200,7 +200,15 @@ img{
 /*img design end*/
 
 @media screen and (max-width: 720px) {
-    
+    body{
+        background-image: linear-gradient(rgba(207,207,199,0),
+        rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 420px){
