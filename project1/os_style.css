@@ -69,7 +69,7 @@ body{
 
 .fundamentals{
     margin: auto;
-    width: 50rem;
+    width: 43.75rem;
 }
 /*fundamentals design end*/
 
@@ -98,7 +98,7 @@ strong{
 
 .cpu{
     margin: auto;
-    width: 50rem;
+    width: 43.75rem;
 }
 /*cpu design end*/
 
@@ -116,7 +116,7 @@ strong{
 
 .cloud{
     margin: auto;
-    width: 50rem;
+    width: 43.75rem;
 }
 /*cloud design end*/
 
@@ -133,7 +133,7 @@ strong{
 
 .network{
     margin: auto;
-    width: 50rem;
+    width: 43.75rem;
 }
 /*network design end*/
 
@@ -186,7 +186,9 @@ img{
 /*img design end*/
 
 @media screen and (max-width: 720px) {
-    
+    #show{
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -196,4 +198,23 @@ img{
         width: 280px;
     }
     
+    .fundamentals{
+        margin: 40px;
+        width: auto;
+    }
+
+    .cloud{
+        margin: 40px;
+        width: auto;
+    }
+
+    .cpu{
+        margin: 40px;
+        width: auto;
+    }
+
+    .network{
+        margin: 40px;
+        width: auto;
+    }
 }
