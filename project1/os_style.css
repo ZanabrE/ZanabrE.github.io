@@ -28,7 +28,7 @@ html{
 body{
     font-family: var(--font-family-2);
     background-image: linear-gradient(rgba(207,207,199,0),
-	rgba(207,207,199,0.3)), url(images/wallpaperflare.com_wallpaper.jpg);
+	rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
