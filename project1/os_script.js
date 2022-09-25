@@ -30,7 +30,8 @@ function quiz(){
     //first variable to style my results page.
     var style1 = {
         "text-align": "center",
-        "margin": "0 600px",
+        "margin": "auto",
+        "width": "auto",
         "border": "2px solid gray",
         "boder-radius": "12px",
         "padding": "5px",
@@ -66,5 +67,5 @@ function quiz(){
 
     var obj3 = document.getElementById('link').href;
     Object.assign(obj3.style, style3);
-    
+
 }
