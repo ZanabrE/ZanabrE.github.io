@@ -210,8 +210,9 @@ img{
     body{
         background-image: linear-gradient(rgba(207,207,199,0),
         rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.jpg);
+        background-size: 100%;
     }
-    
+
     .info{
         text-align: center;
         margin: auto;
