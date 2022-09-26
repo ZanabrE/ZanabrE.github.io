@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lato');
 
 /*Variables.*/
 :root{
@@ -38,6 +38,32 @@ body{
 
 .header{
     font-family: var(--font-family);
-    font-weight: 200;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
 }
+/*header design end*/
+
+.header-text{
+    margin-top: 10px;
+}
+/*header test design end*/
+
+.intro{
+    max-width: 100%;
+    text-align: justify;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+/*intro design end*/
+
+.intro-text{
+    font-family: var(--font-family);
+    font-size: 40px;
+}
+/*intro text design end*/
+
+.meaning{
+    width: 30%;
+}
+/*meaning design end*/
+
