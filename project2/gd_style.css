@@ -4,6 +4,8 @@
 :root{
     --font-family: "Dosis", sans-serif;
     --font-family-2: "Lato", sans-serif;
+    --primary-color: rgb(114, 176, 164);
+    --secondary-color: rgb(249, 190, 8);
     --light-font: 300;
     --normal-font: 400;
     --bold-font: 600;
@@ -26,7 +28,7 @@ html{
 }
 
 body{
-    font-family: var(--font-family-2);
+    font-family: var(--font-family);
     background-image: url(images/white-wall-rough-background.JPG);
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +59,7 @@ body{
 /*intro design end*/
 
 .intro-text{
-    font-family: var(--font-family);
+    font-family: var(--font-family-2);
     font-size: 40px;
 }
 /*intro text design end*/
@@ -67,3 +69,15 @@ body{
 }
 /*meaning design end*/
 
+.ubuntu{
+    max-width: 100%;
+    margin: 80px;
+}
+/*ubuntu design end*/
+
+.uno{
+    position: absolute;
+    color: var(--primary-color);
+    margin-left: 60px;
+}
+/*uno design end*/
