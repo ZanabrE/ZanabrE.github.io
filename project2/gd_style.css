@@ -53,13 +53,17 @@ body{
 
 /*The beginning of intro.*/
 .intro{
+    margin-bottom: 80px;
+}
+/*intro design end*/
+
+.intro-1{
     max-width: 100%;
     text-align: justify;
     margin-left: 80px;
-    margin-bottom: 80px;
     display: grid;
 }
-/*intro design end*/
+/*intro 1 design end*/
 
 .intro-text{
     font-family: var(--font-family-2);
@@ -74,18 +78,24 @@ body{
 
 /*The beginning of ubuntu.*/
 .ubuntu{
+    margin-bottom: 80px;
+}
+/*ubuntu design end*/
+
+.section1{
     justify-content: center;
     max-width: 100%;
     display: grid;
     margin: auto;
 }
-/*ubuntu design end*/
+/*section 1 design end*/
 
 .uno{
     position: absolute;
     color: var(--primary-color);
     writing-mode: vertical-lr;
     text-orientation: upright;
+    transform: skewY(15deg);
     margin-top: 40px;
     margin-left: 120px;
     height: 5%;
@@ -114,24 +124,139 @@ body{
 
 /*The beginning of typography.*/
 .typography{
+    margin-bottom: 80px;
+}
+/*typography design end*/
+
+.section2{
     justify-content: center;
     max-width: 100%;
     display: grid;
     margin: auto;
 }
-/*typography design end*/
+/*section 2 design end*/
 
 .duo{
+    color: rgb(245, 69, 69);
     writing-mode: vertical-rl;
+    text-orientation: upright;
     position: absolute;
-    
+    margin-top: 40px;
+    width: 91%;
 }
+/*duo design end*/
 
+.image2{
+    max-width: 91%;
+    height: auto;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
+    0 6px 20px 0 rgb(0, 0, 0);
+    margin: auto;
+}
+/*image 2 design end*/
 
+.text2{
+    color: rgb(245, 69, 69);
+    position: absolute;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 14pt;
+    margin-top: 48%;
+    width: 40%;
+}
+/*text 2 design end*/
 
 /*The beginning of poster.*/
+.poster{
+    margin-bottom: 80px;
+}
+/*poster design end*/
 
+.section3{
+    justify-content: center;
+    max-width: 100%;
+    display: grid;
+    margin: auto;
+}
+/*section 3 desing end*/
 
+.tre{
+    position: absolute;
+    color: rgb(249, 190, 8);
+    transform: rotate(-25deg);
+    margin-top: 60px;
+    margin-left: 120px;
+}
+/*tre design end*/
 
+.image3{
+    max-width: 91%;
+    height: auto;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
+    0 6px 20px 0 rgb(0, 0, 0);
+    margin: auto;
+}
+/*image 3 design end*/
+
+.text3{
+    color: rgb(249, 190, 8);
+    position: absolute;
+    text-align: center;
+    margin-left: 460px;
+    margin-right: 460px;
+    font-size: 14pt;
+    margin-top: 50%;
+    width: 40%;
+}
+/*text 3 design end*/
 
 /*The beginning of helvetica.*/
+.helvetica{
+    margin-bottom: 80px;
+}
+/*helvetica design end*/
+
+.section4{
+    justify-content: center;
+    max-width: 100%;
+    display: grid;
+    margin: auto;
+}
+/*section 4 design end*/
+
+.quattro{
+    position: absolute;
+    color: #F9F8F4;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+/*quattro design end*/
+
+.image4{
+    max-width: 91%;
+    height: auto;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
+    0 6px 20px 0 rgb(0, 0, 0);
+    margin: auto;
+}
+/*image 4 design end*/
+
+.text4{
+    color: #F9F8F4;
+    position: absolute;
+    text-align: center;
+    margin-left: 460px;
+    margin-right: 460px;
+    font-size: 14pt;
+    margin-top: 60%;
+    width: 40%;
+}
+/*text 4 design end*/
+
+.outro{
+    text-align: center;
+    margin: auto;
+    font-size: 18pt;
+}
+/*outro design end*/
