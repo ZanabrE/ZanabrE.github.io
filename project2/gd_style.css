@@ -38,6 +38,7 @@ body{
 }
 /*CSS reset end*/
 
+/*The beginning of header.*/
 .header{
     font-family: var(--font-family);
     text-align: center;
@@ -50,6 +51,7 @@ body{
 }
 /*header test design end*/
 
+/*The beginning of intro.*/
 .intro{
     max-width: 100%;
     text-align: justify;
@@ -70,6 +72,7 @@ body{
 }
 /*meaning design end*/
 
+/*The beginning of ubuntu.*/
 .ubuntu{
     justify-content: center;
     max-width: 100%;
@@ -109,3 +112,26 @@ body{
 }
 /*text 1 design end*/
 
+/*The beginning of typography.*/
+.typography{
+    justify-content: center;
+    max-width: 100%;
+    display: grid;
+    margin: auto;
+}
+/*typography design end*/
+
+.duo{
+    writing-mode: vertical-rl;
+    position: absolute;
+    
+}
+
+
+
+/*The beginning of poster.*/
+
+
+
+
+/*The beginning of helvetica.*/
