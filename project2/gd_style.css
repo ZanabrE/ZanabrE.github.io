@@ -54,7 +54,8 @@ body{
     max-width: 100%;
     text-align: justify;
     margin-left: 80px;
-    margin-right: 80px;
+    margin-bottom: 80px;
+    display: grid;
 }
 /*intro design end*/
 
@@ -65,19 +66,46 @@ body{
 /*intro text design end*/
 
 .meaning{
-    width: 30%;
+    max-width: 45%;
 }
 /*meaning design end*/
 
 .ubuntu{
+    justify-content: center;
     max-width: 100%;
-    margin: 80px;
+    display: grid;
+    margin: auto;
 }
 /*ubuntu design end*/
 
 .uno{
     position: absolute;
     color: var(--primary-color);
-    margin-left: 60px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-top: 40px;
+    margin-left: 120px;
+    height: 5%;
 }
 /*uno design end*/
+
+.image1{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
+    0 6px 20px 0 rgb(0, 0, 0);
+}
+/*image 1 design end*/
+
+.text1{
+    color: var(--primary-color);
+    position: absolute;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    font-size: 14pt;
+    margin-top: 44%;
+    width: 60%;
+}
+/*text 1 design end*/
+
