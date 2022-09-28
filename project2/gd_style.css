@@ -12,7 +12,8 @@
     --bold-font-2: 700;
     --bolder-font: 800;
     --bolder-font-2: 900;
-    --line-height: normal;
+    --line-height: calc(var(--normal-font) * 2);
+    --move: calc(-1 * var(var(--line-height)));
     --transition: 0.3s;
 }
 /*variables end.*/
@@ -83,6 +84,7 @@ body{
 /*ubuntu design end*/
 
 .section1{
+    position: relative;
     justify-content: center;
     max-width: 100%;
     display: grid;
@@ -96,7 +98,7 @@ body{
     writing-mode: vertical-lr;
     text-orientation: upright;
     transform: skewY(15deg);
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 120px;
     height: 5%;
 }
@@ -116,6 +118,7 @@ body{
     text-align: center;
     margin-left: 320px;
     margin-right: 320px;
+    overflow: hidden;
     font-size: 14pt;
     margin-top: 44%;
     width: 60%;
@@ -129,6 +132,7 @@ body{
 /*typography design end*/
 
 .section2{
+    position: relative;
     justify-content: center;
     max-width: 100%;
     display: grid;
@@ -174,6 +178,7 @@ body{
 /*poster design end*/
 
 .section3{
+    position: relative;
     justify-content: center;
     max-width: 100%;
     display: grid;
@@ -218,6 +223,7 @@ body{
 /*helvetica design end*/
 
 .section4{
+    position: relative;
     justify-content: center;
     max-width: 100%;
     display: grid;
@@ -260,3 +266,26 @@ body{
     font-size: 18pt;
 }
 /*outro design end*/
+
+@media screen and (max-width: 720px) {
+    .intro-1{
+        color: purple;
+    }
+    
+    .section1{
+        width: fit-content;
+    }
+
+    .section, .uno{
+        font-size: 12pt;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text1{
+        text-align: center;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+}
