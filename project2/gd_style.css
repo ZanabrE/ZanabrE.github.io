@@ -12,8 +12,7 @@
     --bold-font-2: 700;
     --bolder-font: 800;
     --bolder-font-2: 900;
-    --line-height: calc(var(--normal-font) * 2);
-    --move: calc(-1 * var(var(--line-height)));
+    --line-height: normal;
     --transition: 0.3s;
 }
 /*variables end.*/
@@ -84,25 +83,12 @@ body{
 /*ubuntu design end*/
 
 .section1{
-    position: relative;
     justify-content: center;
-    max-width: 100%;
+    position: relative;
     display: grid;
     margin: auto;
 }
 /*section 1 design end*/
-
-.uno{
-    position: absolute;
-    color: var(--primary-color);
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    transform: skewY(15deg);
-    margin-top: 80px;
-    margin-left: 120px;
-    height: 5%;
-}
-/*uno design end*/
 
 .image1{
     max-width: 100%;
@@ -112,15 +98,28 @@ body{
 }
 /*image 1 design end*/
 
+.uno{
+    font-size: var(--normal-font);
+    color: var(--primary-color);
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    transform: skewY(15deg);
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 5%;
+}
+/*uno design end*/
+
 .text1{
     color: var(--primary-color);
-    position: absolute;
     text-align: center;
+    overflow: hidden;
+    position: absolute;
+    font-size: var(--normal-font);
+    margin-top: 44%;
     margin-left: 320px;
     margin-right: 320px;
-    overflow: hidden;
-    font-size: 14pt;
-    margin-top: 44%;
     width: 60%;
 }
 /*text 1 design end*/
@@ -134,7 +133,7 @@ body{
 .section2{
     position: relative;
     justify-content: center;
-    max-width: 100%;
+    /*max-width: 100%;*/
     display: grid;
     margin: auto;
 }
@@ -268,16 +267,12 @@ body{
 /*outro design end*/
 
 @media screen and (max-width: 720px) {
-    .intro-1{
-        color: purple;
-    }
-    
-    .section1{
-        width: fit-content;
+    .image1{
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
-    .section, .uno{
-        font-size: 12pt;
+    .uno{
         margin-left: 20px;
         margin-right: 20px;
     }
