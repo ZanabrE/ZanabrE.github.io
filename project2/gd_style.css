@@ -84,6 +84,7 @@ body{
 
 .section1{
     justify-content: center;
+    max-width: 100%;
     position: relative;
     display: grid;
     margin: auto;
@@ -93,6 +94,7 @@ body{
 .image1{
     max-width: 100%;
     height: auto;
+    margin: auto;
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
     0 6px 20px 0 rgb(0, 0, 0);
 }
@@ -104,6 +106,7 @@ body{
     writing-mode: vertical-lr;
     text-orientation: upright;
     transform: skewY(15deg);
+    display: block;
     position: absolute;
     margin-top: 80px;
     margin-left: 100px;
@@ -113,6 +116,7 @@ body{
 
 .text1{
     color: var(--primary-color);
+    display: block;
     text-align: center;
     overflow: hidden;
     position: absolute;
@@ -133,7 +137,7 @@ body{
 .section2{
     position: relative;
     justify-content: center;
-    /*max-width: 100%;*/
+    max-width: 100%;
     display: grid;
     margin: auto;
 }
@@ -142,7 +146,6 @@ body{
 .duo{
     color: rgb(245, 69, 69);
     writing-mode: vertical-rl;
-    text-orientation: upright;
     position: absolute;
     margin-top: 40px;
     width: 91%;
