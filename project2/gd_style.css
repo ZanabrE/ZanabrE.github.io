@@ -58,10 +58,8 @@ body{
 /*intro design end*/
 
 .intro-1{
-    max-width: 100%;
     text-align: justify;
     margin-left: 80px;
-    display: grid;
 }
 /*intro 1 design end*/
 
@@ -72,7 +70,7 @@ body{
 /*intro text design end*/
 
 .meaning{
-    max-width: 45%;
+    width: 55%;
 }
 /*meaning design end*/
 
@@ -86,13 +84,13 @@ body{
     justify-content: center;
     max-width: 100%;
     position: relative;
-    display: grid;
+    display: flex;
     margin: auto;
 }
 /*section 1 design end*/
 
 .image1{
-    max-width: 100%;
+    max-width: 91%;
     height: auto;
     margin: auto;
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
@@ -101,30 +99,26 @@ body{
 /*image 1 design end*/
 
 .uno{
-    font-size: var(--normal-font);
     color: var(--primary-color);
     writing-mode: vertical-lr;
     text-orientation: upright;
-    transform: skewY(15deg);
-    display: block;
+    transform: skewY(18deg);
     position: absolute;
-    margin-top: 80px;
-    margin-left: 100px;
-    height: 5%;
+    top: 6%;
+    left: 6%;
+    height: 28%;
+    
 }
 /*uno design end*/
 
 .text1{
     color: var(--primary-color);
-    display: block;
     text-align: center;
-    overflow: hidden;
     position: absolute;
-    font-size: var(--normal-font);
-    margin-top: 44%;
+    top: 86%;
     margin-left: 320px;
     margin-right: 320px;
-    width: 60%;
+    width: 40%;
 }
 /*text 1 design end*/
 
@@ -138,19 +132,10 @@ body{
     position: relative;
     justify-content: center;
     max-width: 100%;
-    display: grid;
+    display: flex;
     margin: auto;
 }
 /*section 2 design end*/
-
-.duo{
-    color: rgb(245, 69, 69);
-    writing-mode: vertical-rl;
-    position: absolute;
-    margin-top: 40px;
-    width: 91%;
-}
-/*duo design end*/
 
 .image2{
     max-width: 91%;
@@ -161,15 +146,22 @@ body{
 }
 /*image 2 design end*/
 
+.duo{
+    color: rgb(245, 69, 69);
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+/*duo design end*/
+
 .text2{
     color: rgb(245, 69, 69);
     position: absolute;
     text-align: center;
-    margin-left: 140px;
-    margin-right: 140px;
-    font-size: 14pt;
-    margin-top: 48%;
-    width: 40%;
+    left: 120px;
+    bottom: 5px;
+    width: 42%;
 }
 /*text 2 design end*/
 
@@ -183,19 +175,10 @@ body{
     position: relative;
     justify-content: center;
     max-width: 100%;
-    display: grid;
+    display: flex;
     margin: auto;
 }
 /*section 3 desing end*/
-
-.tre{
-    position: absolute;
-    color: rgb(249, 190, 8);
-    transform: rotate(-25deg);
-    margin-top: 60px;
-    margin-left: 120px;
-}
-/*tre design end*/
 
 .image3{
     max-width: 91%;
@@ -206,14 +189,21 @@ body{
 }
 /*image 3 design end*/
 
+.tre{
+    position: absolute;
+    color: rgb(255, 193, 14);
+    transform: rotate(-25deg);
+    left: 120px;
+    top: 40px;
+}
+/*tre design end*/
+
 .text3{
-    color: rgb(249, 190, 8);
+    color: rgb(255, 193, 14);
     position: absolute;
     text-align: center;
-    margin-left: 460px;
-    margin-right: 460px;
-    font-size: 14pt;
-    margin-top: 50%;
+    font-size: var(--normal-font);
+    top: 88%;
     width: 40%;
 }
 /*text 3 design end*/
@@ -228,18 +218,10 @@ body{
     position: relative;
     justify-content: center;
     max-width: 100%;
-    display: grid;
+    display: flex;
     margin: auto;
 }
 /*section 4 design end*/
-
-.quattro{
-    position: absolute;
-    color: #F9F8F4;
-    margin-top: 40px;
-    margin-left: 120px;
-}
-/*quattro design end*/
 
 .image4{
     max-width: 91%;
@@ -249,6 +231,14 @@ body{
     margin: auto;
 }
 /*image 4 design end*/
+
+.quattro{
+    position: absolute;
+    color: #F9F8F4;
+    top: 20px;
+    left: 120px;
+}
+/*quattro design end*/
 
 .text4{
     color: #F9F8F4;
@@ -269,21 +259,120 @@ body{
 }
 /*outro design end*/
 
-@media screen and (max-width: 720px) {
+/*media 1080*/
+@media screen and (max-width: 1920px){
     .image1{
-        margin-left: 40px;
-        margin-right: 40px;
+        width: 100%;
+    }
+}
+
+/*media 810px*/
+@media screen and (max-width: 810px){
+    .meaning{
+        width: 75%;
     }
 
     .uno{
-        margin-left: 20px;
-        margin-right: 20px;
+        top: 10%;
+        font-size: var(--normal-font);
     }
 
     .text1{
-        text-align: center;
-        margin-left: 60px;
-        margin-right: 60px;
+        font-size: small;
+        top: 76%;
     }
-    
+
+    .duo{
+        right: 6%;
+        top: 10%;
+        font-size: var(--normal-font);
+    }
+
+    .text2{
+        left: 10%;
+        font-size: small;
+    }
+
+    .tre{
+        top: 5%;
+        left: 7%;
+        font-size: var(--normal-font);
+    }
+
+    .text3{
+        top: 79.9%;
+        width: 50%;
+    }
+
+    .quattro{
+        top: 2%;
+        left: 10%;
+        font-size: var(--normal-font);
+    }
+
+    .text4{
+        font-size: small;
+        top: -5%;
+    }
+}
+
+/*media 420px*/
+@media screen and (max-width:  420px) {
+    body{
+        background-image: url(images/white-wall-rough-background.JPG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .uno{
+        top: -5%;
+        left: 5%;
+        font-size: small;
+        height: 70%;
+        transform: scale(85%, 60%);
+    }
+
+    .text1{
+        top: 5%;
+        font-size: small;
+        background-color: rgba(2, 8, 58, 0.4);
+    }
+
+    .duo{
+        top: 2%;
+        right: 4%;
+        font-size: small;
+        transform: scale(76%, 58%);
+    }
+
+    .text2{
+        left: 8%;
+        top: 8%;
+        font-size: small;
+    }
+
+    .tre{
+        top: 1%;
+        left: 8%;
+        font-size: small;
+        transform: rotate(-15deg);
+    }
+
+    .text3{
+        top: 10%;
+        color: red;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .quattro{
+        font-size: small;
+    }
+
+    .text4{
+        top: -72%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
 }
