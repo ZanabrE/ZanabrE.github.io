@@ -29,7 +29,8 @@ html{
 
 body{
     font-family: var(--font-family);
-    background-image: url(images/white-wall-rough-background.JPG);
+    /*background-image: url(images/white-wall-rough-background.JPG);*/
+    /*background-image: url('https://www.wallpaperflare.com/untitled-white-wall-texture-grunge-rough-surface-cement-wallpaper-zaphw');*/
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
