@@ -261,7 +261,13 @@ body{
 
 /*media 1920*/
 @media screen and (max-width: 1920px){
-    
+    .image1{
+        width: 980px;
+    }
+
+    img{
+        width: 980px;
+    }
 }
 
 /*media 810px*/
