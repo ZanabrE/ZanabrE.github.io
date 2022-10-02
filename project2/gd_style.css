@@ -271,6 +271,10 @@ body{
         font-size: var(--normal-font);
     }
 
+    .uno:hover{
+        display: block;
+    }
+
     .text1{
         font-size: small;
         top: 76%;
