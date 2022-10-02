@@ -1,6 +1,6 @@
 //This is a jQuery file.
 function show(){
-    $(document).ready(function(){
+    /*$(document).ready(function(){
         $('h2, .text1').hide();
         //start mouse over.
         $('img').hover(function () {
@@ -50,5 +50,5 @@ function show(){
                 $('.quattro, .text4').hide();
             }
         );
-    });
+    });*/
 }
