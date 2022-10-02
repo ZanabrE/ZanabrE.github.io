@@ -1,54 +1,62 @@
 //This is a jQuery file.
 function show(){
-    /*$(document).ready(function(){
-        $('h2, .text1').hide();
+    $(document).ready(function(){
+        //hide my elements.
+        $('.uno, .text1').hide();
         //start mouse over.
-        $('img').hover(function () {
-                // over
-                $('h2, .text1').show(3000);
+        $('.image1').hover(function (evt) {
+            evt.preventDefault();
+            // over
+                $('.uno, .text1').show(2000);
             }, function () {
                 // out
-                $('h2, .text1').hide();
+                $('.uno, .text1').hide(2000);
             }
         );
     });
 
     $(document).ready(function(){
+        //hide my elements.
         $('.duo, .text2').hide();
         //start mouse over.
-        $('.image2').hover(function () {
+        $('.image2').hover(function (evt) {
+            evt.preventDefault();
                 // over
-                $('.duo, .text2').show(3000);
+                $('.duo, .text2').show(2000);
             }, function () {
                 // out
-                $('.duo, .text2').hide();
+                $('.duo, .text2').hide(2000);
             }
         );
     });
 
     $(document).ready(function(){
+        //hide my elements.
         $('.tre, .text3').hide();
         //start mouse over.
-        $('.image3').hover(function () {
+        $('.image3').hover(function (evt) {
+            evt.preventDefault();
                 // over
-                $('.tre, .text3').show(3000);
+                $('.tre, .text3').show(2000);
             }, function () {
                 // out
-                $('.tre, .text3').hide();
+                $('.tre, .text3').hide(2000);
             }
         );
     });
 
     $(document).ready(function(){
+        //hide my elements.
         $('.quattro, .text4').hide();
         //start mouse over.
-        $('.image4').hover(function () {
+        $('.image4').hover(function (evt) {
+            evt.preventDefault();
                 // over
-                $('.quattro, .text4').show(3000);
+                $('.quattro, .text4').show(2000);
             }, function () {
                 // out
-                $('.quattro, .text4').hide();
+                $('.quattro, .text4').hide(2000);
             }
         );
-    });*/
+    });
 }
