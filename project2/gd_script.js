@@ -60,6 +60,10 @@ function show(){
         );
     });
 
+    //javascript.
+    const section1 = document.querySelector('.uno, text1');
+
+    
     $('.image1').on("touchstart", function(e){
         var touch = $(this);
         if(touch.hasClass('hover')) {
