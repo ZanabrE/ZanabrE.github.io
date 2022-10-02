@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Lato');
-@import url('https://www.wallpaperflare.com/');
 
 /*Variables.*/
 :root{
@@ -260,11 +259,9 @@ body{
 }
 /*outro design end*/
 
-/*media 1080*/
+/*media 1920*/
 @media screen and (max-width: 1920px){
-    .image1{
-        width: 100%;
-    }
+    
 }
 
 /*media 810px*/
@@ -275,12 +272,14 @@ body{
 
     .uno{
         top: 10%;
+        left: 5%;
         font-size: var(--normal-font);
     }
 
     .text1{
         font-size: small;
         top: 76%;
+        width: 50%;
     }
 
     .duo{
@@ -292,88 +291,87 @@ body{
     .text2{
         left: 10%;
         font-size: small;
+        width: 40%;
     }
 
     .tre{
-        top: 5%;
+        top: 2%;
         left: 7%;
         font-size: var(--normal-font);
     }
 
     .text3{
-        top: 79.9%;
-        width: 50%;
+        top: 84%;
+        width: 78%;
     }
 
     .quattro{
         top: 2%;
-        left: 10%;
+        left: 8%;
         font-size: var(--normal-font);
     }
 
     .text4{
         font-size: small;
-        top: -5%;
+        top: 40%;
     }
 }
 
 /*media 420px*/
 @media screen and (max-width:  420px) {
-    body{
-        background-image: url(images/white-wall-rough-background.JPG);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-    }
-
     .uno{
         top: -5%;
-        left: 5%;
+        left: 2%;
         font-size: small;
         height: 70%;
         transform: scale(85%, 60%);
     }
 
     .text1{
-        top: 5%;
-        font-size: small;
-        background-color: rgba(2, 8, 58, 0.4);
+        top: 60%;
+        width: 94%;
+        font-size: smaller;
     }
 
     .duo{
-        top: 2%;
-        right: 4%;
+        top: 5%;
+        right: 0.2%;
         font-size: small;
-        transform: scale(76%, 58%);
+        transform: scale(86%, 78%);
     }
 
     .text2{
-        left: 8%;
-        top: 8%;
+        left: 4%;
+        top: 30%;
         font-size: small;
+        width: 50%;
     }
 
     .tre{
-        top: 1%;
-        left: 8%;
+        top: 0.1%;
+        left: 2%;
         font-size: small;
-        transform: rotate(-15deg);
+        transform: rotate(-10deg);
     }
 
     .text3{
-        top: 10%;
-        color: red;
-        background-color: rgba(255, 255, 255, 0.5);
+        top: 30%;
+        color: white;
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 90%;
+        transform: rotate(-10deg);
     }
 
     .quattro{
         font-size: small;
+        top: 86%;
+        left: 4%;
     }
 
     .text4{
-        top: -72%;
-        background-color: rgba(0, 0, 0, 0.3);
+        top: -40%;
+        font-size: small;
+        width: 90%;
     }
 }
