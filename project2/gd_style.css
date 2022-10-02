@@ -139,7 +139,7 @@ body{
 /*section 2 design end*/
 
 .image2{
-    max-width: 91%;
+    max-width: 100%;
     height: auto;
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
     0 6px 20px 0 rgb(0, 0, 0);
@@ -182,7 +182,7 @@ body{
 /*section 3 desing end*/
 
 .image3{
-    max-width: 91%;
+    max-width: 100%;
     height: auto;
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
     0 6px 20px 0 rgb(0, 0, 0);
@@ -225,7 +225,7 @@ body{
 /*section 4 design end*/
 
 .image4{
-    max-width: 91%;
+    max-width: 100%;
     height: auto;
     box-shadow: 0 4px 10px 0 rgb(0, 0, 0),
     0 6px 20px 0 rgb(0, 0, 0);
