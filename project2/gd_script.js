@@ -59,4 +59,18 @@ function show(){
             }
         );
     });
+
+    $('.image1').on("touchstart", function(e){
+        var touch = $(this);
+        if(touch.hasClass('hover')) {
+            return true;        
+        }
+        else{
+            touch.addClass('hover');
+            $('.image1').not(this).removeClass('hover');
+            e.preventDefault();
+            return false;
+        }
+    
+    });
 }
