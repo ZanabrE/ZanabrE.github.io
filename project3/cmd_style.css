@@ -47,14 +47,13 @@ body{
 }
 /*cmd design end.*/
 
-.intro{
+.description{
     width: 100%;
 }
-/*intro design end.*/
+/*description design end.*/
 
 .info{
     text-align: center;
     font-size: 20pt;
-    margin: 40px;    
 }
 /*info desgin end*/
