@@ -59,20 +59,6 @@ function show(){
             }
         );
     });
-
-    /*$('.image1').on("touchstart", function(e){
-        var touch = $(this);
-        if(touch.hasClass('hover')) {
-            return true;        
-        }
-        else{
-            touch.addClass('hover');
-            $('.image1').not(this).removeClass('hover');
-            e.preventDefault();
-            return false;
-        }
-    
-    });*/
 }
 
 function mouseover(){
@@ -80,7 +66,7 @@ function mouseover(){
     const image = document.querySelector('.image1');
     const texto = document.querySelector('.uno');
 
-    image.addEventListener("click", () => {
+    image.addEventListener("hover", () => {
         texto.classList.toggle("show");
     });
 }
