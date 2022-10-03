@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+/*Variables*/
+:root{
+    --font-family: "Orbitron", sans-serif;
+    --bg-color: rgba(49, 108, 166, 0.5);
+    --normal-font: 400;
+    --medium-font: 500;
+    --semibold-font: 600;
+    --bold-font: 700;
+}
+/*Variables end.*/
+
+html{
+    scroll-behavior: smooth;
+}
+/*html desing end.*/
+
+/*CSS reset.*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family);
+    background-image: linear-gradient(rgba(207, 207, 199, 0), rgba(207, 207, 199, 0.5)),
+    url(https://c4.wallpaperflare.com/wallpaper/79/573/83/code-minimalism-microsoft-windows-command-lines-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
