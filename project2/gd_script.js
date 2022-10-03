@@ -59,12 +59,15 @@ function show(){
             }
         );
     });
+
+    const imagen = document.querySelector('.image1');
+    const texto = document.querySelector('.uno, .text1');
+
+    imagen.addEventListener("click", () =>{
+        texto.classList.toggle("show");
+    });
 }
 
-//variable.
-var texto = document.querySelector('text');
-
-texto.addEventListener("mouseover", mouseover);
 function mouseOver(){
     //javascript.
     /*const image = document.querySelector('.image1');
@@ -77,6 +80,10 @@ function mouseOver(){
     /*texto.addEventListener("mouseenter", (evt) => {
         evt.target.show = ('texto',2000);
     })*/
+    const imagen = document.querySelector('.image1');
+    const texto = document.querySelector('.uno, .text1');
 
-    texto.classList.add("hovered");
+    imagen.addEventListener("click", () =>{
+        texto.classList.toggle("show");
+    });
 }
