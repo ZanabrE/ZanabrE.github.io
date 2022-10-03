@@ -49,6 +49,7 @@
                             <br>
                             <br>
                             <button type="submit" onclick="answer1()" required>Submit</button>
+                            <p id="message1"></p>
                         </form><!--End of form.-->
                         <br>
                         <img id="ipconfig" src="https://www.med.unc.edu/it/wp-content/uploads/sites/477/2018/03/download.png" alt="ipconfig command">
@@ -71,13 +72,69 @@
                             <input id="command2" onfocus="this.value=''" required>
                             <br>
                             <br>
-                            <button type="submit" onclick="answer2()" aria-required="true">Submit</button>
+                            <button type="submit" onclick="answer2()" required>Submit</button>
+                            <p id="message2"></p>
                         </form>
                         <br>
                         <img id="ifconfig" src="https://www.isunshare.com/images/article/mac/2-ways-to-get-ip-address-mac-address-on-mac/get-ip-address-mac-address-from-terminal.png" alt="ifconfig command">
                     </div><!--End of ifconfig block.-->
+                </div><!--End of clear block 1.-->
 
-                </div><!--End of clear block.-->
+                <div class="clear">
+                    <div class="ping-pc">
+                        <p class="win_title">On Windows</p>
+
+                        <ol>
+                            <li>Press <code>windows</code> key + <code>R</code>.</li>
+                            <li><code>Run</code> window will appear and type in <code>cmd</code>.</li>
+                            <li>On the command interface type <code>ping</code> space bar IP address
+                            or Domain Name.</li>
+                            <li>The command interface will show the percentage of packet<br> loss.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use google IP address <i>8.8.8.8</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command3" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer3()" required>Submit</button>
+                            <p id="message3"></p>
+                        </form>
+                        <br>
+                        <img id="ping-pc" src="https://www.pcwdld.com/wp-content/uploads/ping-status.jpg" alt="ping command"/>
+                    </div><!--End of ping pc block-->
+
+                    <div class="ping-mac>">
+                        <p class="mac_title">On Mac</p>
+
+                        <ol>
+                            <li>Open <code>Terminal</code> from <code>Applications -> Utilities -> Terminal</code>.</li>
+                            <li>Double click on the <code>Terminal</code> Prompt.</li>
+                            <li>On the Terminal interface type <code>ping </code> space bar IP address
+                            or Domain Name.</li>
+                            <li>The terminal interface will show the percentage of packet<br> loss.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use google IP address <i>8.8.8.8</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command4" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer4()" required>Submit</button>
+                            <p id="message4"></p>
+                        </form>
+                        <br>
+                        <img id="ping-mac" src="https://www.hellotech.com/guide/wp-content/uploads/2020/06/mac-ping-test-google-dns.jpg" alt="ping command"/>
+                    </div><!--End of ping mac block.-->
+                </div><!--End of clear block 2.-->
             </div><!--End of content 1 block.-->
         </section><!--End of command 1 block.-->
 
