@@ -60,11 +60,7 @@ function show(){
         );
     });
 
-    //javascript.
-    /*const section1 = document.querySelector('.uno, text1');
-
-    
-    $('.image1').on("touchstart", function(e){
+    /*$('.image1').on("touchstart", function(e){
         var touch = $(this);
         if(touch.hasClass('hover')) {
             return true;        
@@ -77,4 +73,14 @@ function show(){
         }
     
     });*/
+}
+
+function mouseover(){
+    //javascript.
+    const image = document.querySelector('.image1');
+    const texto = document.querySelector('.uno');
+
+    image.addEventListener("click", () => {
+        texto.classList.toggle("show");
+    });
 }
