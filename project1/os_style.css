@@ -62,7 +62,7 @@ body{
 
 .info{
     text-align: center;
-    width: 400px;
+    width: 40%;
     margin: auto;
 }
 /*info design end*/
@@ -175,7 +175,7 @@ strong:hover{
     font-family: var(--font-family);
     border-radius: 5px;
     font-size: 18pt;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 /*button design end*/
 
@@ -193,12 +193,6 @@ strong:hover{
 }
 /*copyright design end*/
 
-img{
-    margin-bottom: 0.625rem;
-    border: 2px solid var(--secondary-color);
-}
-/*img design end*/
-
 @media screen and (max-width: 720px) {
     body{
         background-image: linear-gradient(rgba(207,207,199,0),
@@ -207,36 +201,8 @@ img{
 }
 
 @media screen and (max-width: 420px){
-    body{
-        background-image: linear-gradient(rgba(207,207,199,0),
-        rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.jpg);
-        background-size: 100%;
-        width: calc(100vw - 100px);
-    }
-
     .info{
-        text-align: center;
-        margin: auto;
-        width: 280px;
+        width: 80%;
     }
     
-    .fundamentals{
-        margin: 40px;
-        width: auto;
-    }
-
-    .cloud{
-        margin: 40px;
-        width: auto;
-    }
-
-    .cpu{
-        margin: 40px;
-        width: auto;
-    }
-
-    .network{
-        margin: 40px;
-        width: auto;
-    }
 }
