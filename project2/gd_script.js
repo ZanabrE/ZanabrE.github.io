@@ -64,8 +64,8 @@ function show(){
 //variable.
 var texto = document.querySelector('text');
 
-texto.addEventListener("mouseover", mouseover)
-function mouseover(){
+texto.addEventListener("mouseover", mouseover);
+function mouseOver(){
     //javascript.
     /*const image = document.querySelector('.image1');
     const texto = document.querySelector('.uno');
