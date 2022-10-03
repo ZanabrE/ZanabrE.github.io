@@ -23,7 +23,7 @@ html{
 
 body{
     font-family: var(--font-family);
-    background-image: linear-gradient(rgba(207, 207, 199, 0), rgba(207, 207, 199, 0.5)),
+    background-image: linear-gradient(rgba(207, 207, 199, 0.2), rgba(207, 207, 199, 0.4)),
     url(images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -48,12 +48,86 @@ body{
 /*cmd design end.*/
 
 .description{
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 /*description design end.*/
 
-.info{
+.intro{
     text-align: center;
+    margin: 40px;
+}
+
+.info{
+    margin-left: 320px;
+    margin-right: 320px;
     font-size: 20pt;
 }
 /*info desgin end*/
+
+.command1{
+    width: 100%;
+}
+/*command 1 design end.*/
+
+h2{
+    text-align: center;
+    font-size: 20pt;
+}
+/*h2 design end.*/
+
+.win_text{
+    text-align: center;
+    font-size: 15pt;
+}
+/*windows text design end.*/
+.clear{
+    display: flex;
+    justify-content: center;
+}
+/*clear design end.*/
+
+.ipconfig{
+    background-color: rgba(118, 123, 140, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(118, 123, 140),
+    0 6px 20px 0 rgb(118, 123, 140);
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    margin-top: 40px;
+    float: left;
+}
+/*ipconfig design end.*/
+
+.win_title{
+    font-size: 14pt;
+}
+/*win title design end.*/
+
+#ipconfig{
+    width: 560px;
+    height: auto;
+}
+/*img design end.*/
+
+.ifconfig{
+    background-color: rgba(215, 207, 188, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(215, 207, 188),
+    0 6px 20px 0 rgb(215, 207, 188);
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    margin-top: 40px;
+    float: left;
+}
+/*ifconfig design end.*/
+
+.mac_title{
+    font-size: 14pt;
+    margin-left: 20px;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*clear desgin end.*/
