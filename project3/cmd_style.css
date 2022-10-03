@@ -24,10 +24,37 @@ html{
 body{
     font-family: var(--font-family);
     background-image: linear-gradient(rgba(207, 207, 199, 0), rgba(207, 207, 199, 0.5)),
-    url(https://c4.wallpaperflare.com/wallpaper/79/573/83/code-minimalism-microsoft-windows-command-lines-wallpaper-preview.jpg);
+    url(images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-
+    height: 100%;
 }
+/*CSS reset end.*/
+
+.header{
+    background-color: var(--bg-color);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 5px;
+}
+/*header design end.*/
+
+.cmd{
+    font-size: 30pt;
+}
+/*cmd design end.*/
+
+.intro{
+    width: 100%;
+}
+/*intro design end.*/
+
+.info{
+    text-align: center;
+    font-size: 20pt;
+    margin: 40px;    
+}
+/*info desgin end*/
