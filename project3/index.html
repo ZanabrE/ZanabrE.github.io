@@ -11,10 +11,87 @@
     <body>
         <header class="header">
             <h1 class="cmd">COMMAND LINES FOR WINDOWS &amp; MAC</h1>
-        </header>
+        </header><!--End of header.-->
+
+        <section>
+            <div class="intro">
+                <p class="info">On this project we are going to show you how to 
+                open a terminal and use some basic useful command lines that is 
+                used in <code>Windows</code> and <code>Mac</code>. 
+                </p>
+            </div><!--End of intro-->
+        </section><!--End of intro block.-->
+
+        <section class="command1">
+            <div class="content1">
+                <h2>Firs command line for <code>Windows</code> and <code>Mac</code></h2>
+                <p class="win_text">
+                    To locate your IP and MAC address on Windows Operating Systems,
+                    follow these steps:
+                </p>
+
+                <div class="clear">
+                    <div class="ipconfig">
+                        <p class="win_title">
+                            On Windows
+                        </p>
+
+                        <ol>
+                            <li>Press <code>Windows</code> key + <code>R</code>.</li>
+                            <li><code>Run</code> window will appear and type in <code>cmd</code>.</li>
+                            <li>On the command line interface type <code>ipconfig /all</code>.</li>
+                            <li>The command interface will show you IP and MAC address.</li>
+                        </ol>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <input id="command1" onfocus="this.value=''" required>
+                            <button type="submit" onclick="answer1()" required>Submit</button>
+                        </form><!--End of form.-->
+
+                        <img id="ipconfig" src="https://www.med.unc.edu/it/wp-content/uploads/sites/477/2018/03/download.png" alt="ipconfig command">
+                    </div><!--End of ipconfig block.-->
+
+                    <div class="ifconfig">
+                        <p class="mac_title">On Mac</p>
+
+                        <ol>
+                            <li>Open <code>Terminal</code> from <code>Applications -> Utilities -> Terminal</code>.</li>
+                            <li>Double click on the <code>Terminal</code> Prompt.</li>
+                            <li>On the terminal interface type <code>ifconfig -l</code>.</li>
+                            <li>The terminal interface will show you IP and MAC address.</li>
+                        </ol>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <input id="command2" onfocus="this.value=''" required>
+                            <button type="submit" onclick="answer2()" aria-required="true">Submit</button>
+                        </form>
+
+                        <img id="ifconfig" src="https://www.isunshare.com/images/article/mac/2-ways-to-get-ip-address-mac-address-on-mac/get-ip-address-mac-address-from-terminal.png" alt="ifconfig command">
+                    </div><!--End of ifconfig block.-->
+
+                </div><!--End of clear block.-->
+            </div><!--End of content 1 block.-->
+        </section><!--End of command 1 block.-->
+
         <section>
 
-        </section>
+        </section><!--End of section 2.-->
 
+        <section>
+
+        </section><!--End of section3.-->
+
+        <section>
+
+        </section><!--End of section 4.-->
+
+        <script>
+            images();
+        </script>
+        <footer>
+
+        </footer>
     </body>
 </html>
