@@ -61,12 +61,22 @@ function show(){
     });
 }
 
+//variable.
+var texto = document.querySelector('text');
+
+texto.addEventListener("mouseover", mouseover)
 function mouseover(){
     //javascript.
-    const image = document.querySelector('.image1');
+    /*const image = document.querySelector('.image1');
     const texto = document.querySelector('.uno');
 
     image.addEventListener("hover", () => {
         texto.classList.toggle("show");
-    });
+    });*/
+
+    /*texto.addEventListener("mouseenter", (evt) => {
+        evt.target.show = ('texto',2000);
+    })*/
+
+    texto.classList.add("hovered");
 }
