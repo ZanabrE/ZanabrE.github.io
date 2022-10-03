@@ -271,7 +271,7 @@ body{
         font-size: var(--normal-font);
     }
 
-    .image1:hover{
+    .image1{
         display: block;
     }
 
