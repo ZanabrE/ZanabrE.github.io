@@ -92,7 +92,7 @@ h2{
     background-color: rgba(118, 123, 140, 0.3);
     box-shadow: 0 4px 8px 0 rgb(118, 123, 140),
     0 6px 20px 0 rgb(118, 123, 140);
-    padding: 10px;
+    padding: 30px;
     margin: 0 20px 0 20px;
     margin-top: 40px;
     float: left;
@@ -114,7 +114,7 @@ h2{
     background-color: rgba(215, 207, 188, 0.3);
     box-shadow: 0 4px 8px 0 rgb(215, 207, 188),
     0 6px 20px 0 rgb(215, 207, 188);
-    padding: 10px;
+    padding: 30px;
     margin: 0 20px 0 20px;
     margin-top: 40px;
     float: left;
@@ -123,8 +123,15 @@ h2{
 
 .mac_title{
     font-size: 14pt;
-    margin-left: 20px;
 }
+/*mac title design end.*/
+
+#ifconfig{
+    width: 560px;
+    height: auto;
+}
+/*img design end.*/
+
 .clear::after{
     content: "";
     clear: both;
