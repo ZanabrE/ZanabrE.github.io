@@ -135,20 +135,120 @@
                         <img id="ping-mac" src="https://www.hellotech.com/guide/wp-content/uploads/2020/06/mac-ping-test-google-dns.jpg" alt="ping command"/>
                     </div><!--End of ping mac block.-->
                 </div><!--End of clear block 2.-->
+
+                <div class="clear">
+                    <div class="tracert">
+                        <p class="win_title">On Windows</p>
+
+                        <ol>
+                            <li>Press <code>windows</code> key + <code>R</code>.</li>
+                            <li><code>Run</code> window will appear and type in <code>cmd</code>.</li>
+                            <li>On the command interface type <code>tracert</code> space bar IP address
+                            or Domain Name.</li>
+                            <li>The command interface will show the tracing route information<br> collected.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use google DNS and IP address <i>8.8.8.8</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command5" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer5()" required>Submit</button>
+                            <p id="message5"></p>
+                        </form>
+                        <br>
+                        <img id="tracert" src="https://support.intermedia.com/euf/assets/images/answers/kb_intermedia_net/Contents/682/682_2.png" alt="tracert command"/>
+                    </div><!--End of tracert block.-->
+
+                    <div class="traceroute">
+                        <p class="mac_title">On Mac</p>
+
+                        <ol>
+                            <li>Open <code>Terminal</code> from <code>Applications -> Utilities -> Terminal</code>.</li>
+                            <li>Double click on the <code>Terminal</code> Prompt.</li>
+                            <li>On the Terminal interface type <code>traceroute</code> space bar IP address
+                            or Domain Name.</li>
+                            <li>The terminal interface will show the tracing route information<br> collected.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use google DNS and IP address <i>8.8.8.8</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command6" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer6()" required>Submit</button>
+                            <p id="message6"></p>
+                        </form>
+                        <br>
+                        <img id="traceroute" src="https://content.hostgator.com/img/mac_04.png" alt="traceroute command"/>
+                    </div><!--End of traceroute.-->
+                </div><!--End of clear block 3.-->
+
+                <div class="clear">
+                    <div class="nslookup-win">
+                        <p class="win_title">On Windows</p>
+
+                        <ol>
+                            <li>Press <code>windows</code> key + <code>R</code>.</li>
+                            <li><code>Run</code> window will appear and type in <code>cmd</code>.</li>
+                            <li>On the command interface type <code>nslooup</code> space bar IP address
+                            or Domain Name.</li>
+                            <li>The command interface will show the tracing route information<br> collected.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use wikipedia DNS <i>wikipedia.com</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command7" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer7()" required>Submit</button>
+                            <p id="message7"></p>
+                        </form>
+                        <br>
+                        <img id="nslookupWin" src="https://support.intermedia.com/euf/assets/images/answers/kb_intermedia_net/Contents/819/819_2.png" alt="nslookup command"/>
+                    </div><!--End of nslookup windows.-->
+
+                    <div class="nslookup-mac">
+                        <p class="mac_title">On Mac</p>
+
+                        <ol>
+                            <li>Open <code>Terminal</code> from <code>Applications -> Utilities -> Terminal</code>.</li>
+						<li>Double click on the <code>Terminal</code> Prompt.</li>
+						<li>On the Terminal interface type <code>nslookup</code> space bar IP address
+						or Domain Name.</li>
+						<li>The terminal interface will show the tracing route information<br> collected.</li>
+                        </ol>
+
+                        <p>Hint: On this example we use google DNS <i>www.google.com</i></p>
+
+                        <form action=" " method="get">
+                            <label for="name" name="label">Type in the command</label>
+                            <br>
+                            <br>
+                            <input id="command8" onfocus="this.value=''" required>
+                            <br>
+                            <br>
+                            <button type="submit" onclick="answer8()" required>Submit</button>
+                            <p id="message8"></p>
+                        </form>
+                        <br>
+                        <img id="nslookupMAC" src="https://media.geeksforgeeks.org/wp-content/uploads/1final-1.png" alt="nslookup command"/>
+                    </div><!--End of nslookup mac.-->
+                </div><!--End of clear block 4.-->
             </div><!--End of content 1 block.-->
         </section><!--End of command 1 block.-->
-
-        <section>
-
-        </section><!--End of section 2.-->
-
-        <section>
-
-        </section><!--End of section3.-->
-
-        <section>
-
-        </section><!--End of section 4.-->
 
         <script>
             images();
