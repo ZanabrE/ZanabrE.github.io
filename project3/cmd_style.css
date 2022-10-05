@@ -3,7 +3,7 @@
 /*Variables*/
 :root{
     --font-family: "Orbitron", sans-serif;
-    --bg-color: rgba(49, 108, 166, 0.5);
+    --bg-color: rgba(49, 108, 166, 0.3);
     --normal-font: 400;
     --medium-font: 500;
     --semibold-font: 600;
@@ -50,6 +50,7 @@ body{
 .description{
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
     width: 100%;
 }
 /*description design end.*/
@@ -66,8 +67,14 @@ body{
 }
 /*info desgin end*/
 
+code{
+    font-size: 12pt;
+}
+/*code design end*/
+
 .command1{
     width: 100%;
+    margin-top: 60px;
 }
 /*command 1 design end.*/
 
@@ -88,19 +95,26 @@ h2{
 }
 /*clear design end.*/
 
+.clear::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*clear desgin end.*/
+
 .ipconfig{
     background-color: rgba(118, 123, 140, 0.3);
     box-shadow: 0 4px 8px 0 rgb(118, 123, 140),
     0 6px 20px 0 rgb(118, 123, 140);
     padding: 30px;
     margin: 0 20px 0 20px;
-    margin-top: 40px;
+    margin-top: 60px;
     float: left;
 }
 /*ipconfig design end.*/
 
 .win_title{
-    font-size: 14pt;
+    font-size: 12pt;
 }
 /*win title design end.*/
 
@@ -108,7 +122,7 @@ h2{
     width: 560px;
     height: auto;
 }
-/*img design end.*/
+/*img ipconfig design end.*/
 
 .ifconfig{
     background-color: rgba(215, 207, 188, 0.3);
@@ -116,7 +130,7 @@ h2{
     0 6px 20px 0 rgb(215, 207, 188);
     padding: 30px;
     margin: 0 20px 0 20px;
-    margin-top: 40px;
+    margin-top: 60px;
     float: left;
 }
 /*ifconfig design end.*/
@@ -130,11 +144,186 @@ h2{
     width: 560px;
     height: auto;
 }
-/*img design end.*/
+/*img ifconfig design end.*/
 
-.clear::after{
-    content: "";
-    clear: both;
-    display: table;
+.ping-pc{
+    background-color: rgba(227, 227, 227, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(227, 227, 227),
+    0 6px 20px 0 rgb(227, 227, 227);
+    padding: 30px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
 }
-/*clear desgin end.*/
+/*ping pc design end.*/
+
+#ping-pc{
+    width: 560px;
+    height: auto;
+}
+/*img ping pc design end.*/
+
+.ping-mac{
+    background-color: rgba(239, 185, 10, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(239, 185, 10),
+    0 6px 20px 0 rgb(239, 185, 10);
+    padding: 30px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
+}
+/*ping mac design end.*/
+
+#ping-mac{
+    width: 560px;
+    height: auto;
+}
+/*img ping mac design end.*/
+
+.tracert{
+    background-color: rgba(207, 221, 188, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(207, 221, 188),
+    0 6px 20px 0 rgb(207, 221, 188);
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
+}
+/*tracert design end.*/
+
+#tracert{
+    width: 560px;
+    height: auto;
+}
+/*img tracert design end.*/
+
+.traceroute{
+    background-color: rgba(143, 186, 158, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(143, 186, 158),
+    0 6px 20px 0 rgb(143, 186, 158);
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
+}
+/*trace route design end.*/
+
+#traceroute{
+    width: 560px;
+    height: auto;
+}
+/*img tracer route design end.*/
+
+.nslookup-win{
+    background-color: rgba(255, 230, 228, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(255, 230, 228),
+    0 6px 20px 0 rgb(255, 230, 228);
+    padding: 25px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
+}
+/*nslookup win design end.*/
+
+#nslookupWin{
+    width: 560px;
+    height: auto;
+}
+/*img nslookup win design end.*/
+
+.nslookup-mac{
+    background-color: rgba(247, 197, 198, 0.3);
+    box-shadow: 0 4px 8px 0 rgb(247, 197, 198),
+    0 6px 20px 0 rgb(247, 197, 198);
+    padding: 25px;
+    margin: 0 20px 0 20px;
+    margin-top: 80px;
+    float: left;
+}
+/*nslookup mac design end.*/
+
+#nslookupMAC{
+    width: 560px;
+    height: auto;
+}
+/*img nslookup mac design end.*/
+
+.copyright{
+    background-color: var(--bg-color);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 80px;
+    font-size: 14pt;
+}
+/*copyright design end.*/
+
+@media screen and (max-width: 810px){
+    .info{
+        width: 90%;
+        font-size: 14pt;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .ipconfig, .ifconfig{
+        flex-direction: column;
+        width: 42%;
+    }
+
+    #ipconfig, #ifconfig{
+        width: 100%;
+        height: auto;
+    }
+
+    .ping-pc, .ping-mac{
+        width: 42%;
+    }
+
+    #ping-pc, #ping-mac{
+        width: 100%;
+        height: auto;
+    }
+
+    .tracert, .traceroute{
+        width: 42%;
+    }
+
+    #tracert, #traceroute{
+        width: 100%;
+        height: auto;
+    }
+
+    .nslookup-win, .nslookup-mac{
+        width: 42%;
+    }
+
+    #nslookupWin, #nslookupMAC{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .clear{
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .ipconfig, .ifconfig{
+        width: 90%;
+    }
+
+    .ping-pc, .ping-mac{
+        width: 90%;
+    }
+
+    .tracert, .traceroute{
+        width: 90%;
+    }
+
+    .nslookup-win, .nslookup-mac{
+        width: 90%;
+    }
+}
