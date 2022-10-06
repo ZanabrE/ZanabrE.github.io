@@ -15,7 +15,7 @@ function images(){
 
 //javascript.
 //first javascript function.
-function answer1(){
+function answer1(){    
     //variables.
     let x = document.getElementById("command1").value;
 	let command = 'ipconfig /all';
