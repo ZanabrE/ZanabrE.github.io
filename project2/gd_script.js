@@ -67,23 +67,3 @@ function show(){
         texto.classList.toggle("show");
     });
 }
-
-function mouseOver(){
-    //javascript.
-    /*const image = document.querySelector('.image1');
-    const texto = document.querySelector('.uno');
-
-    image.addEventListener("hover", () => {
-        texto.classList.toggle("show");
-    });*/
-
-    /*texto.addEventListener("mouseenter", (evt) => {
-        evt.target.show = ('texto',2000);
-    })*/
-    const imagen = document.querySelector('.image1');
-    const texto = document.querySelector('.uno, .text1');
-
-    imagen.addEventListener("click", () =>{
-        texto.classList.toggle("show");
-    });
-}
