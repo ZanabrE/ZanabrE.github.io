@@ -11,6 +11,10 @@ function images(){
         $('#nslookupWin').hide();
         $('#nslookupMAC').hide();
     });
+
+	$('form').submit(function(){
+		return false;
+	});
 }
 
 //javascript.
@@ -235,7 +239,6 @@ function answer7(){
 
 //Eighth javascrip function.
 function answer8(){
-
 	//Variables.
 	let x = document.getElementById("command8").value;
 	let command = 'nslookup www.google.com';
@@ -254,10 +257,10 @@ function answer8(){
 	//Added jQuery inside my function to show the image.
 	$(document).ready(function () {
 		if(x == command){
-			$('#nslookypMAC').show(2000);
+			$('#nslookupMAC').show(2000);
 		}
 		if(x != command){
-			$('#nslookypMAC').hide(2000);
+			$('#nslookupMAC').hide(2000);
 		}
 	});
 } 
