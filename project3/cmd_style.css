@@ -317,6 +317,11 @@ h2{
         width: 90%;
     }
 
+    #ipconfig, #ifconfig{
+        width: 100%;
+        height: auto;
+    }
+
     .ping-pc, .ping-mac{
         width: 90%;
     }
@@ -325,21 +330,23 @@ h2{
         width: 90%;
     }
 
+    #tracert, #traceroute{
+        width: 100%;
+        height: auto;
+    }
+
     .nslookup-win, .nslookup-mac{
         width: 90%;
+    }
+
+    #nslookupWin, #nslookupMAC{
+        width: 100%;
+        height: auto;
     }
 }
 
 /*Media query for small devices 420px.*/
 @media only screen and (max-width: 420px){
-    body{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
-    }
-
     .clear{
         flex-direction: column;
         gap: 0;
