@@ -274,7 +274,7 @@ body{
 /*end media screen 1920px.*/
 
 /*media 810px*/
-@media only screen and (max-width: 810px){
+@media screen and (max-width: 810px){
     .meaning{
         width: 75%;
     }
@@ -331,7 +331,7 @@ body{
 }
 
 /*media 420px*/
-@media only screen and (max-width:  420px) {
+@media screen and (max-width:  420px) {
     .uno{
         top: -5%;
         left: 2%;
