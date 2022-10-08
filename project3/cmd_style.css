@@ -259,7 +259,8 @@ h2{
 }
 /*copyright design end.*/
 
-@media screen and (max-width: 810px){
+/*Media query for iPad 810px.*/
+@media only screen and (max-width: 810px){
     .info{
         width: 90%;
         font-size: 14pt;
@@ -305,7 +306,40 @@ h2{
     }
 }
 
-@media screen and (max-width: 420px){
+/*Media query for iPhone 13 Pro Max 480px.*/
+@media only screen and (max-width: 480px){
+    .clear{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ipconfig, .ifconfig{
+        width: 90%;
+    }
+
+    .ping-pc, .ping-mac{
+        width: 90%;
+    }
+
+    .tracert, .traceroute{
+        width: 90%;
+    }
+
+    .nslookup-win, .nslookup-mac{
+        width: 90%;
+    }
+}
+
+/*Media query for small devices 420px.*/
+@media only screen and (max-width: 420px){
+    body{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
     .clear{
         flex-direction: column;
         gap: 0;
