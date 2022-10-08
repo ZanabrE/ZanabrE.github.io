@@ -184,6 +184,11 @@ strong:hover{
 }
 /*button hover design end*/
 
+.button:active{
+    color: black;
+}
+/*button active design end.*/
+
 .copyright{
     background-color: rgba(207, 207, 199, 0.1);
     text-align: center;
@@ -193,16 +198,44 @@ strong:hover{
 }
 /*copyright design end*/
 
-@media screen and (max-width: 720px) {
-    body{
-        background-image: linear-gradient(rgba(207,207,199,0),
-        rgba(207,207,199,0.3)), url(wallpaperflare.com_wallpaper.jpg);
+@media only screen and (max-width: 810px){
+    .info{
+        width: 460px;
+    }
+
+    .os{
+        font-size: 28pt;
+    }
+
+    h2{
+        font-size: 18pt;
     }
 }
 
-@media screen and (max-width: 420px){
+@media only screen and (max-width: 480px) {
     .info{
-        width: 80%;
+        width: 340px;
     }
-    
+
+    .os{
+        font-size: 20pt;
+    }
+
+    h2{
+        font-size: 16pt;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .info{
+        width: 280px;
+    }
+
+    .os{
+        font-size: 20pt;
+    }
+
+    h2{
+        font-size: 16pt;
+    }
 }
