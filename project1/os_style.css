@@ -212,9 +212,10 @@ strong:hover{
     }
 }
 
+/*Media screen for iPhone 13 Pro Max.*/
 @media only screen and (max-width: 480px) {
     .info{
-        width: 340px;
+        width: 380px;
     }
 
     .os{
