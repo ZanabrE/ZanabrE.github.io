@@ -198,6 +198,7 @@ strong:hover{
 }
 /*copyright design end*/
 
+/*Media screen for tablets or iPad.*/
 @media only screen and (max-width: 810px){
     .info{
         width: 460px;
@@ -227,6 +228,7 @@ strong:hover{
     }
 }
 
+/*Media screen for small devices.*/
 @media only screen and (max-width: 420px){
     .info{
         width: 310px;
