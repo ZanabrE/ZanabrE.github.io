@@ -1,11 +1,20 @@
 //This is a jQuery file.
-function show(){
-    $(document).ready(function(){
-        //hide my elements.
+function main(){
+    $(document).ready(function () {
         $('.uno, .text1').hide();
+        $('.duo, .text2').hide();
+        $('.tre, .text3').hide();
+        $('.quattro, .text4').hide();
+    });
+}
+
+
+//Function show 1.
+function show1(){
+    $(document).ready(function(){
         //start mouse over.
-        $('.image1').hover(function (evt) {
-            evt.preventDefault();
+        $('.image1').hover(function () {
+            /*evt.preventDefault();*/
             // over
                 $('.uno, .text1').show(2000);
             }, function () {
@@ -14,13 +23,13 @@ function show(){
             }
         );
     });
+}
 
+//Function show 2.
+function show2() {
     $(document).ready(function(){
-        //hide my elements.
-        $('.duo, .text2').hide();
         //start mouse over.
-        $('.image2').hover(function (evt) {
-            evt.preventDefault();
+        $('.image2').hover(function () {
                 // over
                 $('.duo, .text2').show(2000);
             }, function () {
@@ -29,13 +38,13 @@ function show(){
             }
         );
     });
+}
 
+//Function show 3.
+function show3(){
     $(document).ready(function(){
-        //hide my elements.
-        $('.tre, .text3').hide();
         //start mouse over.
-        $('.image3').hover(function (evt) {
-            evt.preventDefault();
+        $('.image3').hover(function () {
                 // over
                 $('.tre, .text3').show(2000);
             }, function () {
@@ -44,13 +53,13 @@ function show(){
             }
         );
     });
+}
 
+//Function show 4.
+function show4(){
     $(document).ready(function(){
-        //hide my elements.
-        $('.quattro, .text4').hide();
         //start mouse over.
-        $('.image4').hover(function (evt) {
-            evt.preventDefault();
+        $('.image4').hover(function () {
                 // over
                 $('.quattro, .text4').show(2000);
             }, function () {
@@ -59,11 +68,6 @@ function show(){
             }
         );
     });
-
-    const imagen = document.querySelector('.image1');
-    const texto = document.querySelector('.uno, .text1');
-
-    imagen.addEventListener("click", () =>{
-        texto.classList.toggle("show");
-    });
 }
+
+
