@@ -259,22 +259,8 @@ body{
 }
 /*outro design end*/
 
-/*media 1920px*/
-/*@media screen and (max-width: 1920px){
-    .intro-1{
-        width: 55%;
-    }
-
-    .section1{
-        width: 730px;
-        height: auto;
-    }
-    
-}
-/*end media screen 1920px.*/
-
 /*media 810px*/
-@media screen and (max-width: 810px){
+@media only screen and (max-width: 810px){
     .meaning{
         width: 75%;
     }
@@ -283,10 +269,6 @@ body{
         top: 10%;
         left: 5%;
         font-size: var(--normal-font);
-    }
-
-    .image1{
-        display: block;
     }
 
     .text1{
@@ -330,8 +312,55 @@ body{
     }
 }
 
+/*media 480px for iPhones small devices.*/
+@media only screen and (max-width: 480px){
+    .uno{
+        left: 2%;
+        font-size: small;
+    }
+
+    .text1{
+        width: 410px;
+    }
+
+    .duo{
+        right: 0.2%;
+    }
+
+    .text2{
+        left: 4%;
+        width: 210px;
+    }
+
+    .tre{
+        top: -0.10%;
+        left: 2%;
+    }
+
+    .text3{
+        top: 40%;
+        font-size: small;
+        border-radius: 12px;
+        width: 410px;
+        transform: rotate(-10deg);
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .quattro{
+        font-size: small;
+        top: 86%;
+        left: 4%;
+    }
+
+    .text4{
+        top: -36%;
+        font-size: small;
+        width: 90%;
+    }
+}
+
 /*media 420px*/
-@media screen and (max-width:  420px) {
+@media only screen and (max-width: 420px) {
     .uno{
         top: -5%;
         left: 2%;
@@ -371,6 +400,7 @@ body{
         top: 30%;
         color: white;
         font-size: small;
+        border-radius: 12px;
         background-color: rgba(0, 0, 0, 0.3);
         width: 90%;
         transform: rotate(-10deg);
